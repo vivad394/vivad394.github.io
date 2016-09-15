@@ -1,0 +1,25 @@
+body{ 
+    background-color: yellow;
+}
+
+p {
+    font-family: helvetica, Arial, San-serif;
+    color: red;
+    font-size: 100px;
+    font-weight: normal;
+    background-color: green;
+    width: 200px;
+    margin: 100px;
+    padding: 40px;
+}
+   
+    .special{ 
+        color: white;
+        
+}
+#first {
+    color: pink;
+}
+#second {
+    color: purple;
+}
