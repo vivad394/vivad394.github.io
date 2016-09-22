@@ -1,0 +1,48 @@
+
+p{
+    font-family: brandon grotesque;
+    font-size: 22px;
+    color: #ff4552;
+    
+    
+}
+    .special{
+     border-style: double;  
+    border-color: #ff4552;
+    padding: 40px;
+    color: #ff4552;
+        font-family: Bebas;
+        font-style: Italic; 
+        font-size: 65px
+   
+}
+
+    #first{
+        font-family: brandon grotesque;
+        font-size: 22px;
+        color: #ff4552;
+        
+}
+
+
+/* mouse over link */
+a:hover {
+    color: #ff9879;
+}
+
+/* visited link */
+    a:visited {
+    color: #ff9879;
+}
+a:link {
+    text-decoration: none;}       
+footer { 
+    display: block;
+    padding: 20px;
+    margin-top: 80px;
+    background-color: #ff4552;
+    color: white;
+        font-family: Bebas;
+        font-style: italic; 
+        font-size: 12px;
+}    
