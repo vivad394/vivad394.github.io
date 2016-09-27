@@ -1,4 +1,3 @@
-
 p{
     font-family: brandon grotesque;
     font-size: 22px;
@@ -7,7 +6,7 @@ p{
     
 }
     .special{
-     border-style: double;  
+     border-style: solid;  
     border-color: #ff4552;
     padding: 40px;
     color: #ff4552;

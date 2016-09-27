@@ -1,0 +1,19 @@
+#square{
+width:100px;
+height:100px;
+margin:20px;
+padding:20px;
+float:inherit;
+background-color:#ff9879;
+    
+}
+
+/* mouse over link */
+a:hover {
+    color: yellow;    
+}
+/* visited link */
+a:visited {
+    color:yellow;
+}
+    
