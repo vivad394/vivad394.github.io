@@ -27,7 +27,7 @@
     height: 20px;
     left: 850px;
     bottom: 200px;
-    
+    background-size: 190.45%;
 }
 
 .button5{
@@ -66,6 +66,9 @@
 }
 .button3:hover{
     background-position: -500px, 0px;
+}
+.button4{
+    background-position: -700px;
 }
 .button5:hover{
     background-position: -555px, 0px;
