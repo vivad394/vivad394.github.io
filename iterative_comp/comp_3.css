@@ -45,7 +45,7 @@ body{
     background-color: black;
     color: black;
     font-family: "aleo";
-    font-style: italic;
+    text-decoration: none;
     
 }
 .square4:hover{
@@ -58,7 +58,11 @@ body{
     line-height: 300px;
     font-size: 30px;
     color: black;
-    
+    text-decoration: none;
+}
+
+a:link {
+    text-decoration: none;
 }
 @keyframes turn{
     0%{
