@@ -36,6 +36,7 @@
     height: 85px;
     bottom: 400px;
     left: 375px;
+    background-size: 300%;
 }
 
 .button6{
@@ -71,7 +72,7 @@
     background-position: -700px;
 }
 .button5:hover{
-    background-position: -555px, 0px;
+    background-position: -660px, 0px;
     
 }
 .button6:hover{
