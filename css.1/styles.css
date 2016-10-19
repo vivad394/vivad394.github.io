@@ -1,3 +1,27 @@
+body{
+    margin: 0;
+    font-size: 0;
+}
+.column{
+    font-size: 40px;
+    height: 200px;
+    display: inline-block;
+    width: 25%;
+    background-color: pink;
+    color: white;
+    font-family: helvetica;
+    font-style: italic;
+}
+.full{
+    background-color: blue;
+    height: 200px;
+    width: 70%;
+    margin: 20px auto;
+    border-width: 100px 10px;
+    border-style: solid;
+    
+}
+
 .square{
     width: 200px;
     height: 200px;

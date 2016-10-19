@@ -1,0 +1,115 @@
+body{
+    background-color: pink;
+    color: white;
+    font-size: 20px
+}
+
+.container{
+    background-color: black;
+    width: 200px;
+    height: 400px;
+    margin-bottom: 100px;
+    position: absolute;
+    top: 0;
+}
+.child{
+    background-color: white;
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    top: 30px;
+    left: 300px;
+    
+}
+
+.circle{
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+    top: 20px;
+    left:40px;
+    border-radius: 50px;
+    position: absolute;
+    
+}
+
+.triangle{
+    width:0px;
+    height: 100px;
+    background-color: pink;
+    border: 10px solid white;
+    position: absolute;
+    border-top: 20px;
+    border-right: 100px solid transparent;
+    border-left: 100px solid transparent;
+    border-bottom: 200px solid;
+    
+    
+    
+}
+
+.box{
+    width: 100px;
+    height: 100px;
+    background-color: orange;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    z-index: 100;
+}
+.box1{
+    top: 30px;
+    right: 30px;
+    background-color: grey;
+    z-index: 200;
+}
+
+.box2{
+    top: 50px;
+    right: 50px;
+    background-color: blue;
+    opacity: 60
+}
+p{
+    font-family: helvetica;
+    font-size: 100px;
+    padding: 10px ;
+}
+
+.overflow{
+    margin-bottom: 400px;
+    background-color: yellow;
+    color: black;
+    width: 300px;
+    height: 300px;
+    overflow: scroll;
+    position: relative;
+    top: 20px;
+    left: 400px;
+    
+}
+
+.special {
+    font-family: bebas;
+    font-size: 32px;
+}
+.button{
+    display: block;
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    font-family:bebas;
+    text-decoration: none;
+    color: white;    
+    font-size: 50px;
+    text-indent: inherit;
+    white-space: nowrap;
+    overflow: hidden;
+
+}
+.button:hover {
+    background-position: -200px, 0px
+}
+.button:active {
+    background-position: 200px;
+}    

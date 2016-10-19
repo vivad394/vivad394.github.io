@@ -1,0 +1,46 @@
+body{
+    background-color: orange;
+}
+
+.triangle{
+    margin: 40px;
+width: 0; 
+   height: 0; 
+   border-bottom: 100px solid;
+   border-left: 60px solid transparent; 
+   border-right: 60px solid transparent; 
+   color: white;
+   animation-name: swing;
+   animation-delay: .5s;
+   animation-iteration-count: infinite;
+   animation-duration: 7s;
+   font-family: Helvetica;
+   text-align: center;
+   line-height: 150px;
+   font-size: 10px;
+}
+
+.triangle:hover{
+    color: #ED8A81;
+    
+}
+
+.triangle2{
+    right: 200px;
+    
+}
+
+@keyframes swing{
+    0% {
+        transform: rotate(0deg);
+    }
+    30% {
+        transform: rotate(45deg);
+    }
+    60% {
+        transform: rotate(-45deg);
+    }
+    100% {
+        transform: rotate(0deg);
+    }
+}
