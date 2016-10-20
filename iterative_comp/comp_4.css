@@ -1,7 +1,10 @@
 body{
     background-color: orange;
+    background-image: url('marigold.png');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center; 
 }
-
 .triangle:hover .in{
     color: white;
     font-family: Helvetica;
