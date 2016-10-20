@@ -2,6 +2,40 @@ body{
     background-color: orange;
 }
 
+.example {
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    position: relative;
+}
+
+.inner {
+    width: 100px;
+    height: 100px;
+    background-color: lime;
+    position: absolute;
+    top: 100px;
+    left: 100px;
+    display: none;
+}
+
+.example:hover .inner {
+    display: block;
+}
+
+.triangle:hover .in{
+    color: white;
+    font-family: Helvetica;
+   text-align: center;
+   line-height: 120px;
+   font-size: 12px;
+   position: relative;
+}
+.in{
+    position: inherit;
+ 
+}
+
 .triangle{
     margin: 40px;
 width: 0; 
