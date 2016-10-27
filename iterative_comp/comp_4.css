@@ -16,9 +16,10 @@ body{
     border-right: -60px;
 }
 .in{
-    
-    right: -60px;
- 
+    width: 60px;
+    height: 100px;
+    left: -25px;
+    position: relative;
 }
 
 .triangle{
@@ -44,6 +45,27 @@ width: 0;
     
 }
 
+p{
+    color: white;
+    font-family: helvetica;
+    font-style: italic;
+    font-size: 12px;
+    text-decoration: none;
+}
+
+a:link {
+    text-decoration: none;
+    color: white;
+}
+
+a:visited {
+    text-decoration: none;
+    color: yellow;
+}
+
+p:hover{
+    color: orange;
+}
 @keyframes swing{
     0% {
         transform: rotate(0deg);
