@@ -46,8 +46,11 @@ body{
     color: black;
     font-family: "aleo";
     text-decoration: none;
-    
+    width: 300px;
+    height: 300px;
+    line-height: 300px;
 }
+
 .square4:hover{
     width: 300px;
     height: 300px;
@@ -57,7 +60,7 @@ body{
     text-align: CENTER;
     line-height: 300px;
     font-size: 30px;
-    color: black;
+    color: white;
     text-decoration: none;
 }
 

@@ -8,13 +8,16 @@ body{
 .triangle:hover .in{
     color: white;
     font-family: Helvetica;
-   text-align: center;
-   line-height: 120px;
-   font-size: 12px;
-   position: relative;
+    line-height: 120px;
+    text-align: center;
+
+    font-size: 12px;
+    padding-left: -60px;
+    border-right: -60px;
 }
 .in{
-    position: inherit;
+    
+    right: -60px;
  
 }
 
@@ -32,17 +35,12 @@ width: 0;
    animation-duration: 7s;
    font-family: Helvetica;
    text-align: center;
-   line-height: 150px;
+   line-height: 120px;
    font-size: 10px;
 }
 
 .triangle:hover{
     color: black;
-    
-}
-
-.triangle2{
-    right: 200px;
     
 }
 
