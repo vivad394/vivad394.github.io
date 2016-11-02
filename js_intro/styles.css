@@ -1,0 +1,21 @@
+.hi {
+    background-color: blue;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: Arial;
+}
+
+.button{
+    width: 100px;
+    height: 100px;
+    position: fixed;
+    bottom: 20px;
+    left: 30px;
+    border-radius: 100%;
+    background-color: red;
+    text-align: center;
+    color: white;
+    font-family: Helvetica;
+    line-height: 100px;
+    font-size: 40px;
+}
