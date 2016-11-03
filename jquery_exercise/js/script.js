@@ -51,10 +51,11 @@ $("#toggle").click(function() {
 
 $("#status").mouseenter(function() {
   //run this code when the mouse enters the target
-    $("#cat").show()
+  if (click == true){
+    $("#cat").show()}
 });
-
-
-
-
+$("#status").mouseleave(function() {
+  //run this code when the mouse leaves the target
+    $("#cat").hide()
+});
 
