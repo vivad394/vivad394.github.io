@@ -1,0 +1,16 @@
+body{
+   font-size: 0px;
+ background-image: url("night-sky.jpg");
+}
+
+.triangle{
+    width: 0;
+	height: 0;
+	border-left: 50px solid transparent;
+	border-right: 50px solid transparent;
+	border-bottom: 100px solid orange;
+	
+	display: inline-block;
+    margin: 20px;
+    vertical-align: middle;
+}
