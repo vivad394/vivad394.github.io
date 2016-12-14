@@ -1,0 +1,109 @@
+.deck{
+    width: 90px;
+    height: 140px;
+    background-color: black;
+    top: 20px;
+    position: relative;
+    background-size: 120%;
+    
+}
+
+.text{
+    width: 330px;
+    height: 500px;
+    color: #358082;
+    font-family: "brandon grotesque", sans-serif;
+    font-size: 16px;
+    text-align: justify;
+}
+
+
+.card{
+    width: 90px;
+    height: 140px;
+    background-color: transparent;
+    display: inline-block;
+    position: relative;
+    top: 150px;
+    margin: 10px;
+}
+
+.card1{
+    background-image: url("sol.jpg");
+    background-size: 100%;
+    background-position: center;
+}
+
+        .card1:hover{
+        background-image: url("sol1.png");
+        background-size: 110%;
+        }
+
+.card2{
+    background-image: url("mano.jpg");
+    background-size: 100%;
+    background-position: center;
+}
+
+        .card2:hover{
+        background-image: url("mano1.png");
+        background-size: 110%;
+        }
+
+.card3{
+    background-image: url("apache.jpg");
+    background-size: 100%;
+    background-position: center;
+}
+
+        .card3:hover{
+        background-image: url("apache1.png");
+        background-size: 103%;
+        background-position: center;
+        }
+
+.card4{
+    background-image: url("rosa.jpg");
+    background-size: 100%;
+    background-position: center;
+}
+
+        .card4:hover{
+        background-image: url("rosa1.png");
+        }
+
+.card5{
+    background-image: url("calavera.jpg");
+    background-size: 100%;
+    background-position: center;
+}
+
+        .card5:hover{
+        background-image: url("calavera1.png");
+        background-size: 115%;
+        }
+    
+.card6{
+    background-image: url("luna.jpg");
+    background-size: 100%;
+    background-position: center;
+}
+
+        .card6:hover{
+        background-image: url("luna1.png");
+        background-size: 110%;
+        }
+        
+.draggable{
+    width: 75px;
+    height: 75px;
+    border-radius: 100%;
+    background-color: orange;
+    top: 600px;
+    left: 680px;
+    position: absolute;
+    cursor:move;
+   
+}
+
+

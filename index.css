@@ -1,33 +1,30 @@
-p{
-    font-family: brandon grotesque;
-    font-size: 22px;
-    color: #ff4552;
-    
-    
+.first{
+        font-family: avenir;
+        font-size: 22px;
+        color: white;
+        font-weight: lighter; 
+        text-align: center;
+        
 }
+
+
 
 body{
     cursor: url(flower.png), auto;
-    margin: 0px;
+    margin: 40px;
 }
     .special{
-     border-style: solid;  
-    border-color: #ff4552;
+     top: 200px;
     padding: 40px;
     color: #ff4552;
-        font-family: "Bebas", Helvetica;
-        font-style: Italic; 
+        font-family: "Avenir", Helvetica;
+        font-weight: 100;
         font-size: 65px
    
 }
 
-    #first{
-        font-family: brandon grotesque;
-        font-size: 22px;
-        color: yellow;
+    
         
-}
-
 
 /* mouse over link */
 a:hover {
@@ -36,20 +33,14 @@ a:hover {
 
 /* visited link */
     a:visited {
-    color: #ff9879;
-}
+    color: #ff4552;
+        
+    }
+
 a:link {
     text-decoration: none;}       
-footer { 
-    display: block;
-    padding: 20px;
-    margin-top: 80px;
-    background-color: #ff4552;
-    color: white;
-        font-family: Bebas;
-        font-style: italic; 
-        font-size: 12px;
-}    
+
+    
 .p2{
     font-family: brandon grotesque;
     font-size: 16px;
