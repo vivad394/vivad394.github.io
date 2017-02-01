@@ -1,0 +1,30 @@
+body{
+	font-family: helvetica;
+	background-color: blue;
+	color: white;
+	background-image: url('giphy.gif');
+	background-size: cover;
+	background-position: center;
+}
+
+h1{
+	font-style: italic;
+	color: white;
+	padding-top: 250px;
+}
+
+h2{
+	color: white;
+}
+
+a:visited {
+    text-decoration: none;
+    color: white;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+
+
