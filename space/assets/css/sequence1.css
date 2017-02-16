@@ -1,0 +1,166 @@
+body{
+	background-image: url("../img/studio.jpg");
+	background-size: 100%;
+	background-color: black;
+}
+
+h1{
+	font-family: "brandon Grotesque";
+	font-weight: lighter;
+	color: white;
+	padding-top: 300px;
+	text-decoration: none;
+}
+
+.steps{
+	background-color: white;
+}
+
+.steps1{
+	width: 150px;
+	height: 300px;
+}
+
+.buttons {
+	position: fixed;
+	bottom: 60px;
+	left: 0;
+	right: 0;
+}
+.key{
+	width: 940px;
+	height: 39px;
+	background-color: red;
+	/*display: inline-block;*/
+}
+
+.text1, .text2, .text3, .text4, .text5, .text6{
+	color: white;
+	font-family: 'brandon Grotesque';
+	font-size: 16px;
+	font-weight: lighter;
+	width: 80px;
+	height: 39px;
+
+}
+
+.key1{
+	width: 39px;
+	height: 39px;
+	background-color: white;
+}
+
+.text1{
+	margin-top: -20px;
+	margin-left: 45px; 
+}
+
+.key2{
+	width: 39px;
+	height: 19.5px;
+	background-color: white;
+	margin-top: -59px;
+	margin-left: 125px;
+}
+
+.text2{
+	margin-top: 0px;
+	margin-left: 170px;
+}
+
+.key3{
+	width: 39px;
+	height: 19.5px;
+	background-color: white;
+	margin-top: -38px;
+	margin-left: 200px;
+}
+
+.text3{
+	margin-top: -18px;
+	margin-left: 250px;
+}
+
+.key4{
+	width: ;
+}
+
+.button{
+	background-color: white;
+	display: inline-block;
+	margin-left: 450px;
+	margin-bottom: 50px;
+}
+
+
+.wf{
+	width: 39px;
+	height: 39px;
+	background-color: white;
+	margin-top: 600px;
+}
+
+.t{
+	width: 39px;
+	height: 19.5px;
+	margin-left: 46px;
+	margin-bottom: 65px;
+}
+
+.h{
+	width: 39px;
+	height: 19.5px;
+	margin-left: 46px;
+}
+
+.wa{
+	width: 19.5px;
+	height: 39px;
+	margin-left: 46px;
+}
+
+.ta{
+	width: 19.5px;
+	height: 19.5px;
+	margin-bottom: 65px;
+	margin-left: 46px;
+	
+}
+
+.ha{
+	width: 19.5px;
+	height: 19.5px;
+	margin-left: 46px;
+}
+
+
+.someDiv {
+  background-color: black;
+  width: 200px;
+  height: 300px;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  margin-top: -150px;
+  margin-left: -100px;
+  animation: pulse 2s;
+  animation-fill-mode: forwards;
+}
+
+@keyframes pulse {
+  0% {
+    opacity: 0;
+  }
+  49% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  99% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}

@@ -53,10 +53,7 @@ a:hover {
 
 .c{
 	background: #ff0;
-	font-size: 16px;
-	display: inline-block;
-	margin: 0 15px 30px 15px;
-
+	font-size: ;
 }
 .c1, .c2, .c3, .c4, .c5, .c6{
 	font-size: 16px;
@@ -79,9 +76,6 @@ a:hover {
 
 .c6{width: 930px;}
 
-img{
-	width: 100%;
-}
 
 
 

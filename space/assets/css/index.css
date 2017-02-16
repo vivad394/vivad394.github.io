@@ -1,0 +1,28 @@
+body{
+	background-image: url("../img/studio.jpg");
+	background-size: 100%;
+	background-color: black;
+}
+
+h1{
+	font-family: "brandon Grotesque";
+	font-weight: lighter;
+	color: white;
+	padding-top: 300px;
+	text-decoration: none;
+}
+
+a:link, a:visited {
+    color: white;
+    text-decoration: none;
+}
+
+.key{
+	margin-top: 300px;
+	margin-left: 300px;
+	background-image: url("../img/group.png");
+	background-size: 100%;
+	width: 900px;
+	height: 30px;
+}
+
