@@ -1,7 +1,7 @@
 $(".wf").click(function() {
-	$(".step-container").append("<div class='someDiv'></div>");
+	$(".step-container").hide("<div class='steps1 steps'></div>");
 })
 
 $(".t").click(function() {
-	$(".step-container").append("<div class='someDiv'></div>");
+	$(".step-container").show("<div class='someDiv'></div>");
 })

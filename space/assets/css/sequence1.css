@@ -1,3 +1,8 @@
+*{
+	box-sizing: border-box;
+	/*padding wont add to width*/
+}
+
 body{
 	background-image: url("../img/studio.jpg");
 	background-size: 100%;
@@ -5,33 +10,85 @@ body{
 }
 
 h1{
-	font-family: "brandon Grotesque";
+	font-family: "brandon Grotesque", "univers", helvetica, sans-serif ;
 	font-weight: lighter;
 	color: white;
 	padding-top: 300px;
 	text-decoration: none;
 }
 
-.steps{
-	background-color: white;
-}
+.steps{background-color: white;}
 
 .steps1{
 	width: 150px;
 	height: 300px;
+	margin: 50px auto;
 }
 
 .buttons {
-	position: fixed;
-	bottom: 60px;
-	left: 0;
-	right: 0;
+	/*the wrapper of the button class*/
+	width: 426px;
+	height: 40px;
+	margin: 100px auto;
+	
 }
-.key{
-	width: 940px;
+
+.button{
+	background-color: white;
+	display: inline-block;
+}
+
+.wf{
+	width: 39px;
 	height: 39px;
-	background-color: red;
-	/*display: inline-block;*/
+	background-color: white;
+	padding: 0;
+	margin-bottom: -5px;
+	
+}
+
+.t{
+	width: 39px;
+	height: 19.5px;
+	margin-left: 46px;
+	margin-bottom: 15px;
+}
+
+.h{
+	width: 39px;
+	height: 19.5px;
+	margin-left: 46px;
+	margin-bottom: -4px;
+}
+
+.wa{
+	width: 19.5px;
+	height: 39px;
+	margin-left: 46px;
+	margin-bottom: -4px;
+}
+
+.ta{
+	width: 19.5px;
+	height: 19.5px;
+	margin-bottom: 15px;
+	margin-left: 46px;
+	
+}
+
+.ha{
+	width: 19.5px;
+	height: 19.5px;
+	margin-left: 46px;
+	margin-bottom: -5px;
+}
+
+.key{
+	margin-top: 75%;
+	width: 655px;
+	height: 39px;
+	margin: 150px auto 50px;
+
 }
 
 .text1, .text2, .text3, .text4, .text5, .text6{
@@ -44,10 +101,13 @@ h1{
 
 }
 
+.key1, .key2, .key3, .key4, .key5, .key6{
+	background-color: white;
+}
+
 .key1{
 	width: 39px;
 	height: 39px;
-	background-color: white;
 }
 
 .text1{
@@ -58,7 +118,6 @@ h1{
 .key2{
 	width: 39px;
 	height: 19.5px;
-	background-color: white;
 	margin-top: -59px;
 	margin-left: 125px;
 }
@@ -71,7 +130,6 @@ h1{
 .key3{
 	width: 39px;
 	height: 19.5px;
-	background-color: white;
 	margin-top: -38px;
 	margin-left: 200px;
 }
@@ -82,59 +140,46 @@ h1{
 }
 
 .key4{
-	width: ;
-}
-
-.button{
-	background-color: white;
-	display: inline-block;
-	margin-left: 450px;
-	margin-bottom: 50px;
-}
-
-
-.wf{
-	width: 39px;
-	height: 39px;
-	background-color: white;
-	margin-top: 600px;
-}
-
-.t{
-	width: 39px;
-	height: 19.5px;
-	margin-left: 46px;
-	margin-bottom: 65px;
-}
-
-.h{
-	width: 39px;
-	height: 19.5px;
-	margin-left: 46px;
-}
-
-.wa{
 	width: 19.5px;
 	height: 39px;
-	margin-left: 46px;
+	margin-top: -60px;
+	margin-left: 290px;
 }
 
-.ta{
+.text4{
+	width: 116px;
+	margin-top: -20px;
+	margin-left: 315px;
+}
+
+.key5{
 	width: 19.5px;
 	height: 19.5px;
-	margin-bottom: 65px;
-	margin-left: 46px;
-	
+	margin-top: -58px;
+	margin-left: 440px;
 }
 
-.ha{
+.text5{
+	width: 116px;
+	margin-top: 0;
+	margin-left: 470px;
+}
+
+.key6{
 	width: 19.5px;
 	height: 19.5px;
-	margin-left: 46px;
+	margin-top: -39px;
+	margin-left: 555px;
+}
+
+.text6{
+	width: 116px;
+	margin-top: -20px;
+	margin-left: 580px;
 }
 
 
-.someDiv {
+/*.someDiv {
   background-color: black;
   width: 200px;
   height: 300px;
@@ -145,7 +190,7 @@ h1{
   margin-left: -100px;
   animation: pulse 2s;
   animation-fill-mode: forwards;
-}
+}*/
 
 @keyframes pulse {
   0% {
