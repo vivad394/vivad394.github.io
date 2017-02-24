@@ -1,15 +1,33 @@
 body{
-	background-image: url("../img/studio.jpg");
-	background-size: 100%;
 	background-color: black;
 }
 
-h1{
-	font-family: "brandon Grotesque";
+.background {
+	background-image: url("../img/studio.jpg");
+	background-size: 100%;;
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	z-index: -5;
+}
+
+
+.header{
+	margin: 300px auto;
+	font-family: "brandon Grotesque", helvetica, sans-serif;
 	font-weight: lighter;
+	font-size: 30px;
+	height: 40px;
+	width: 258px;
 	color: white;
-	padding-top: 300px;
 	text-decoration: none;
+}
+
+.header:hover{
+	cursor: pointer;
+	background: black;
 }
 
 a:link, a:visited {
@@ -18,11 +36,97 @@ a:link, a:visited {
 }
 
 .key{
-	margin-top: 300px;
-	margin-left: 300px;
-	background-image: url("../img/group.png");
-	background-size: 100%;
-	width: 900px;
-	height: 30px;
+	position: fixed;
+	bottom: 20px;
+	left: 50%;
+	transform: translateX(-50%);
+	z-index: 2000;
+
 }
 
+.text1, .text2, .text3, .text4, .text5, .text6{
+	color: white;
+	font-family: 'brandon Grotesque';
+	font-size: 16px;
+	font-weight: lighter;
+	width: 80px;
+	height: 39px;
+
+}
+
+.key1, .key2, .key3, .key4, .key5, .key6{
+	background-color: white;
+}
+
+.key1{
+	width: 39px;
+	height: 39px;
+}
+
+.text1{
+	margin-top: -20px;
+	margin-left: 45px; 
+}
+
+.key2{
+	width: 39px;
+	height: 19.5px;
+	margin-top: -59px;
+	margin-left: 125px;
+}
+
+.text2{
+	margin-top: 0px;
+	margin-left: 170px;
+}
+
+.key3{
+	width: 39px;
+	height: 19.5px;
+	margin-top: -38px;
+	margin-left: 200px;
+}
+
+.text3{
+	margin-top: -18px;
+	margin-left: 250px;
+}
+
+.key4{
+	width: 19.5px;
+	height: 39px;
+	margin-top: -60px;
+	margin-left: 290px;
+}
+
+.text4{
+	width: 116px;
+	margin-top: -20px;
+	margin-left: 315px;
+}
+
+.key5{
+	width: 19.5px;
+	height: 19.5px;
+	margin-top: -58px;
+	margin-left: 440px;
+}
+
+.text5{
+	width: 116px;
+	margin-top: 0;
+	margin-left: 470px;
+}
+
+.key6{
+	width: 19.5px;
+	height: 19.5px;
+	margin-top: -39px;
+	margin-left: 555px;
+}
+
+.text6{
+	width: 116px;
+	margin-top: -20px;
+	margin-left: 580px;
+}

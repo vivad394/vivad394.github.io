@@ -1,5 +1,7 @@
 *{
-		vertical-align: top;
+	vertical-align: top;
+	box-sizing: border-box;
+	/*padding wont add to width*/
 
 }
 body{
@@ -19,28 +21,29 @@ header{
 h1{
 	font-style: italic;
 	font-weight: normal;
-
+	letter-spacing: 5px;
 }
 
 h2{
+	font-style: italic;
 	font-weight: normal;
-
+	letter-spacing: 5px;
 }
 
 a{
-	color: white;
+	color: red;
 	text-decoration: none;
 
 }
 
 a:hover {
-	color: #ffff00;
+	color: white;
 	background-color: red;
 }
 
 .wrapper{
 	width: 960px;
-	background: #f1f1f1;
+	background: transparent;
 	margin: 0 auto;
 }
 
@@ -64,14 +67,15 @@ a:hover {
 	margin: 0 15px 30px 15px;
 	color: black;
 	display: inline-block;
+	background: yellow;
 
 }
 
-.c1{width: 130px;}
+.c1{width: 126px;}
 
-.c2{width: 290px;}
+.c2{width: 287px;}
 
-.c3{width: 450px;}
+.c3{width: 447px;}
 
 .c4{width: 610px;}
 
