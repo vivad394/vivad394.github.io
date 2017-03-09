@@ -1,0 +1,70 @@
+body{
+	margin: 0;
+	padding: 0;
+}
+
+.wrapper{
+	width: 960px;
+	margin: 0 auto;
+}
+
+.composition{
+	width: 768px;
+	height: 768px;
+	background: #f8e71c;
+	margin: 0 auto;
+
+}
+
+.redbar{
+	width: 768px;
+	height: 100px;
+	background: #d0021b;
+	position: absolute;
+	top:568px;
+	left: -100px;
+}
+
+.bluebox{
+	width: 568px;
+	height: 568px;
+	background: #202665;
+	position: relative;
+	top: 100px;
+	left: 100px;
+}
+
+.greenbox{
+	width: 368px;
+	height: 368px;
+	background: #009e4f;
+	position: relative;
+	top: 100px;
+	left: 100px;
+}
+
+.red{
+	background: #ed2025;
+	width: 335px;
+	height: 67px;
+	position: relative;
+}
+
+.box1{
+	left: 116px;
+	bottom: 245px;
+}
+
+.box2{
+	top: 85px;
+}
+
+.box3{
+	top: 85px;
+	
+}
+
+.box4{
+	top: 85px;
+}
+
