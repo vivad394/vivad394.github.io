@@ -1,0 +1,327 @@
+/*.wrapper{
+	width: 200px;
+	height: 200px;
+	background: yellow;
+}
+
+.slant{
+
+}
+*/
+html, body {
+  background-color: white;
+}
+.gouter {
+  width: 200px;
+  height: 200px;
+  border-radius: 100%;
+  background-color: black;
+  position: relative;
+  margin: 20px;
+  
+}
+.ginner {
+  width: 194px;
+  height: 194px;
+  border-radius: 100%;
+  background-color: white;
+  position: absolute;
+  left: 5px;
+  
+}
+
+.gmask {
+  position: absolute;
+  top:-10px;
+  right: 0px;
+  background-color: white;
+  width: 100px;
+  height: 130px;
+  border-bottom: 3px solid black
+}
+
+
+.gouter2 {
+  width: 200px;
+  height: 200px;
+  border-radius: 100%;
+  background-color: black;
+  position: relative;
+    margin: 20px;
+
+}
+.ginner2 {
+  width: 180px;
+  height: 180px;
+  border-radius: 100%;
+  background-color: white;
+  position: absolute;
+  left: 25px;
+  top: 0px;
+  
+}
+
+.gmask2 {
+  position: absolute;
+  top:-10px;
+  right: 0px;
+  background-color: white;
+  width: 100px;
+  height: 130px;
+  border-bottom: 5px solid black
+}
+
+.gouter3 {
+  width: 200px;
+  height: 200px;
+  border-radius: 100%;
+  background-color: black;
+  position: relative;
+    margin: 20px;
+
+}
+.ginner3 {
+  width: 160px;
+  height: 160px;
+  border-radius: 100%;
+  background-color: white;
+  position: absolute;
+  left: 35px;
+  top: 10px;
+  
+}
+
+.gmask3 {
+  position: absolute;
+  top:-10px;
+  right: 0px;
+  background-color: white;
+  width: 100px;
+  height: 130px;
+  border-bottom: 10px solid black
+}
+
+.gouter4 {
+  width: 200px;
+  height: 200px;
+  border-radius: 100%;
+  background-color: black;
+  position: relative;
+    margin: 20px;
+
+}
+.ginner4 {
+  width: 140px;
+  height: 140px;
+  border-radius: 100%;
+  background-color: white;
+  position: absolute;
+  left: 35px;
+  top: 25px;
+  
+}
+
+.gmask4 {
+  position: absolute;
+  top:-10px;
+  right: 0px;
+  background-color: white;
+  width: 90px;
+  height: 130px;
+  border-bottom: 15px solid black
+}
+
+.Oouter{
+  width: 200px;
+  height: 200px;
+  border-radius: 100%;
+  background-color: black;
+  position: relative;
+  margin: 20px;
+}
+
+.Oinner{
+  width: 195px;
+  height: 195px;
+  border-radius: 100%;
+  background-color: white;
+  position: relative;
+  left: 3px;
+  top: 3px;
+ 
+}
+
+.Oouter2{
+  width: 200px;
+  height: 200px;
+  border-radius: 100%;
+  background-color: black;
+  position: relative;
+  margin: 20px;
+}
+
+.Oinner2{
+  width: 185px;
+  height: 185px;
+  border-radius: 100%;
+  background-color: white;
+  position: relative;
+  left: 7px;
+  top: 7px;
+ 
+}
+
+.Oouter3{
+  width: 200px;
+  height: 200px;
+  border-radius: 100%;
+  background-color: black;
+  position: relative;
+  margin: 20px;
+}
+
+.Oinner3{
+  width: 175px;
+  height: 175px;
+  border-radius: 100%;
+  background-color: white;
+  position: relative;
+  left: 13px;
+  top: 13px;
+ 
+}
+
+.Oouter4{
+  width: 200px;
+  height: 200px;
+  border-radius: 100%;
+  background-color: black;
+  position: relative;
+  margin: 20px;
+}
+
+.Oinner4{
+  width: 165px;
+  height: 165px;
+  border-radius: 100%;
+  background-color: white;
+  position: relative;
+  left: 17px;
+  top: 17px;
+ 
+}
+
+.Qouter{
+  width: 200px;
+  height: 200px;
+  border-radius: 100%;
+  background-color: black;
+  position: relative;
+  margin: 20px;
+}
+
+.Qinner{
+  width: 195px;
+  height: 195px;
+  border-radius: 100%;
+  background-color: white;
+  position: relative;
+  left: 3px;
+  top: 3px;
+ }
+
+ .Qtail{
+ 	width: 2px;
+ 	height: 45px;
+ 	background: black;
+ 	transform: rotate(-45deg);
+ 	position: absolute;
+ 	left: 180px;
+ 	top: 150px;
+ }
+
+
+.Qouter2{
+  width: 200px;
+  height: 200px;
+  border-radius: 100%;
+  background-color: black;
+  position: relative;
+  margin: 20px;
+}
+
+.Qinner2{
+  width: 185px;
+  height: 185px;
+  border-radius: 100%;
+  background-color: white;
+  position: relative;
+  left: 7px;
+  top: 7px;
+ 
+}
+
+ .Qtail2{
+ 	width: 6px;
+ 	height: 50px;
+ 	background: black;
+ 	transform: rotate(-45deg);
+ 	position: absolute;
+ 	left: 180px;
+ 	top: 150px;
+ }
+
+.Qouter3{
+  width: 200px;
+  height: 200px;
+  border-radius: 100%;
+  background-color: black;
+  position: relative;
+  margin: 20px;
+}
+
+.Qinner3{
+  width: 175px;
+  height: 175px;
+  border-radius: 100%;
+  background-color: white;
+  position: relative;
+  left: 13px;
+  top: 13px;
+ 
+}
+
+.Qouter4{
+  width: 200px;
+  height: 200px;
+  border-radius: 100%;
+  background-color: black;
+  position: relative;
+  margin: 20px;
+}
+
+.Qinner4{
+  width: 165px;
+  height: 165px;
+  border-radius: 100%;
+  background-color: white;
+  position: relative;
+  left: 17px;
+  top: 17px;
+ 
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

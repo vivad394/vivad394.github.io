@@ -1,0 +1,165 @@
+/*colors used in quiz 2
+
+lower right rectangle: #202c28
+top right rectangle: #495056;
+center rectangle: #41443d;
+lower left rectangle: #b6b7b1;
+top left rectangle: #b0ab97;
+
+smaller bars are 8px tall
+
+*/
+
+
+
+*{
+	box-sizing: border-box;
+}
+
+
+body{
+	margin: 0;
+	padding: 0;
+}
+
+.wrapper{
+	width: 960px;
+	margin: 0 auto;
+}
+
+.composition{
+	width: 768px;
+	height: 500px;
+	background: #41443d;
+	margin: 0 auto;
+	margin-top: -100px;
+
+}
+
+.circle{
+	width: 100px;
+	height: 100px;
+	border-radius: 100%;
+	background-color: #b6b7b1;
+	position: relative;
+	top: 250px;
+	margin: 0 auto;
+
+}
+
+.vertical{
+	height: 400px;
+	width: 256px;
+}
+
+.left{
+	background: #b0ab97; 
+}
+
+.right{
+	background: #202c28;
+	margin-left: 512px;
+
+}
+
+.horizontal{
+	height: 200px;
+	width: 512px;
+}
+
+.bottom{
+	background: #b6b7b1;
+}
+
+.top{
+	background: #495056;
+	margin-top: -610px;
+	margin-left: 256px;
+}
+
+.verticalinnerboxcenter{
+	height: 300px;
+	width: 156px;
+	background: #202c28;
+	left: 50px;
+	top: 50px;
+	position: relative;
+}
+
+.verticalinnerboxright{
+	height: 280px;
+	width: 73px;
+	background: #b6b7b1;
+	top: 10px;
+	position: relative;
+}
+
+.verticalinnerboxleft{
+	height: 280px;
+	width: 73px;
+	background: #b6b7b1;
+	top: -270px;
+	left: 83px;
+	position: relative;
+}
+
+.horizontalbottomcenter{
+	height: 100px;
+	width: 412px;
+	background: #202c28;
+	position: relative;
+	top: 50px;
+	left: 50px;
+}
+
+.horizontalbottominner{
+	height: 80px;
+	width: 53.5px;
+	background: #495056;
+	display: inline-block;
+	margin-left: 10px;
+	position: relative;
+	top: 10;
+}
+
+.bars{
+	height: 8px;
+	width: 392px;
+	background: #b6b7b1;
+	margin: 10px;
+	position: relative;
+    top: 10px;
+}
+
+.verticalinnerboxcenter2{
+	height: 300px;
+	width: 156px;
+	background: #b6b7b1;
+	left: 50px;
+	top: 50px;
+	position: relative;
+}
+
+.verticalinnerboxright2{
+	height: 280px;
+	width: 73px;
+	background: #202c28;
+	top: 10px;
+	position: relative;
+}
+
+.verticalinnerboxleft2{
+	height: 280px;
+	width: 73px;
+	background: #202c28;
+	top: -270px;
+	left: 83px;
+	position: relative;
+}
+
+
+
+
+
+
+
