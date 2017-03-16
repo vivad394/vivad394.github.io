@@ -263,12 +263,12 @@ html, body {
 
  .Qtail2{
  	width: 6px;
- 	height: 50px;
+ 	height: 60px;
  	background: black;
  	transform: rotate(-45deg);
  	position: absolute;
  	left: 180px;
- 	top: 150px;
+ 	top: 140px;
  }
 
 .Qouter3{
@@ -288,8 +288,17 @@ html, body {
   position: relative;
   left: 13px;
   top: 13px;
- 
 }
+
+.Qtail3{
+ 	width: 8px;
+ 	height: 60px;
+ 	background: black;
+ 	transform: rotate(-45deg);
+ 	position: absolute;
+ 	left: 180px;
+ 	top: 130px;
+ }
 
 .Qouter4{
   width: 200px;
@@ -308,14 +317,67 @@ html, body {
   position: relative;
   left: 17px;
   top: 17px;
- 
 }
 
+.Qtail4{
+ 	width: 12px;
+ 	height: 70px;
+ 	background: black;
+ 	transform: rotate(-45deg);
+ 	position: absolute;
+ 	left: 180px;
+ 	top: 130px;
+ }
 
+.btop{
+	height: 90px;
+	width: 90px;
+	border-radius: 100%;
+	background: #fff;
+	border: #000 solid;
+}
 
+.bbottom{
+	height: 110px;
+	width: 110px;
+	border-radius: 100%;
+	background: #fff;
+	border: #000 solid;
+}
 
+.bmask{
+	height: 213px;
+	width: 50px;
+	background: #fff;
+	border-right: 3px #000 solid;
+	position: relative;
+	top: -213px;
+}
 
+.btop2{
+	height: 90px;
+	width: 90px;
+	border-radius: 100%;
+	background: #fff;
+	border: #000 5px solid;
+}
 
+.bbottom2{
+	height: 110px;
+	width: 110px;
+	border-radius: 100%;
+	background: #fff;
+	border: #000 5px solid;
+}
+
+.bmask2{
+	height: 213px;
+	width: 50px;
+	background: #fff;
+	border-right: 5px #000 solid;
+	position: relative;
+	top: -213px;
+}
 
 
 
