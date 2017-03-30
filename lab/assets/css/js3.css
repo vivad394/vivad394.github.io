@@ -1,0 +1,9 @@
+.fruit{
+	height: 100px;
+	width: 100px;
+	background-size: cover;
+}
+
+.banana{background-image: url(../banana.jpg);}
+.apple{background-image: url(../apple.jpg);}
+.grapes{background-image: url(../grape.png);}
