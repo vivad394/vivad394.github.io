@@ -16,22 +16,12 @@ function update_wallet(value){
 }
 
 function charge_card(){
-	if (cash >= amount) {
 
- 		cash = cash - amount;
- 		update_wallet(cash);
- 		$('.purchases').append(item + ',');
-
- 	} 
-
- 	else{
- 		alert('not enough money.');
- 	}
 }
 
 $('.item').click(function() {
  var amount = $(this).data('amount');
- var item = $(this).data('.item');
+ var item = $(this).data('item');
 
  	console.log(cash);
  	console.log(amount);

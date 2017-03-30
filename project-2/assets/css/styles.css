@@ -1,16 +1,13 @@
-/*.wrapper{
+.wrapper{
 	width: 200px;
 	height: 200px;
 	background: yellow;
+  position: relative;
+  margin: 10px;
 }
 
-.slant{
+/*THIS IS THE LETTER G*/
 
-}
-*/
-html, body {
-  background-color: white;
-}
 .gouter {
   width: 200px;
   height: 200px;
@@ -131,6 +128,8 @@ html, body {
   border-bottom: 15px solid black
 }
 
+/*THIS IS THE LETTER O*/
+
 .Oouter{
   width: 200px;
   height: 200px;
@@ -210,6 +209,8 @@ html, body {
   top: 17px;
  
 }
+
+/*THIS IS THE LETTER Q*/
 
 .Qouter{
   width: 200px;
@@ -329,6 +330,8 @@ html, body {
  	top: 130px;
  }
 
+ /*THIS IS THE LETTER B*/
+
 .btop{
 	height: 90px;
 	width: 90px;
@@ -338,46 +341,1540 @@ html, body {
 }
 
 .bbottom{
-	height: 110px;
-	width: 110px;
+	height: 100px;
+	width: 100px;
 	border-radius: 100%;
 	background: #fff;
 	border: #000 solid;
 }
 
 .bmask{
-	height: 213px;
+	height: 202px;
 	width: 50px;
 	background: #fff;
 	border-right: 3px #000 solid;
-	position: relative;
-	top: -213px;
+  position: relative;
+	top: -202px;
 }
 
 .btop2{
-	height: 90px;
-	width: 90px;
+	height: 85px;
+	width: 85px;
 	border-radius: 100%;
 	background: #fff;
 	border: #000 5px solid;
+  position: relative;
 }
 
 .bbottom2{
-	height: 110px;
-	width: 110px;
+	height: 95px;
+	width: 95px;
 	border-radius: 100%;
 	background: #fff;
 	border: #000 5px solid;
+
 }
 
 .bmask2{
-	height: 213px;
+	height: 200px;
 	width: 50px;
 	background: #fff;
 	border-right: 5px #000 solid;
 	position: relative;
-	top: -213px;
+	top: -200px;
 }
+
+.btop3{
+  height: 80px;
+  width: 80px;
+  border-radius: 100%;
+  background: #fff;
+  border: #000 7px solid;
+  position: relative;
+}
+
+.bbottom3{
+  height: 91px;
+  width: 91px;
+  border-radius: 100%;
+  background: #fff;
+  border: #000 7px solid;
+
+}
+
+.bmask3{
+  height: 200px;
+  width: 50px;
+  background: #fff;
+  border-right: 7px #000 solid;
+  position: relative;
+  top: -199px;
+}
+
+.btop4{
+  height: 75px;
+  width: 75px;
+  border-radius: 100%;
+  background: #fff;
+  border: #000 10px solid;
+  position: relative;
+}
+
+.bbottom4{
+  height: 85px;
+  width: 85px;
+  border-radius: 100%;
+  background: #fff;
+  border: #000 10px solid;
+
+}
+
+.bmask4{
+  height: 200px;
+  width: 50px;
+  background: #fff;
+  border-right: 10px #000 solid;
+  position: relative;
+  top: -200px;
+}
+
+/*THIS IS THE LETTER C*/
+
+.Cinner{
+  width: 195px;
+  height: 195px;
+  border-radius: 100%;
+  background: white;
+  position: relative;
+  border: #000 solid;
+}
+
+.Cmask{
+  height: 100px;
+  width: 30px;
+  background: white;
+  position: absolute;
+  top: 55px;
+  left: 171px;
+}
+
+.Cinner2{
+  width: 192px;
+  height: 192px;
+  border-radius: 100%;
+  background: white;
+  position: relative;
+  border: 7px #000 solid;
+}
+
+.Cmask2{
+  height: 100px;
+  width: 35px;
+  background: white;
+  position: absolute;
+  top: 55px;
+  left: 172px;
+}
+
+.Cinner3{
+  width: 189px;
+  height: 189px;
+  border-radius: 100%;
+  background: white;
+  position: relative;
+  border: 9px #000 solid;
+}
+
+.Cmask3{
+  height: 100px;
+  width: 35px;
+  background: white;
+  position: absolute;
+  top: 55px;
+  left: 172px;
+}
+
+.Cinner4{
+  width: 180px;
+  height: 180px;
+  border-radius: 100%;
+  background: white;
+  position: relative;
+  border: 13px #000 solid;
+}
+
+.Cmask4{
+  height: 100px;
+  width: 35px;
+  background: white;
+  position: absolute;
+  top: 55px;
+  left: 172px;
+}
+
+/*THIS IS THE LETTER R */
+
+.Rtop{
+  height: 100px;
+  width: 100px;
+  background: white;
+  border: #000 solid;
+  border-radius: 100%;
+}
+
+.Rbottom{
+  height: 150px;
+  width: 150px;
+  background: white;
+  border-radius: 100%;
+  border: #000 solid;
+  margin: 0;
+  position: relative;
+  left: -30px;
+}
+
+.Rmaskleft{
+  height: 210px;
+  width: 80px;
+  background: white;
+  border-right: #000 solid;
+  position: relative;
+  top: -262px;
+  left: -30px;
+}
+
+.Rmaskbottom{
+  height: 80px;
+  width: 250px;
+  background: white;
+  position: relative;
+  top: -280px;
+  left: -40px;
+}
+
+.Rtop2{
+  height: 98px;
+  width: 98px;
+  background: white;
+  border: 7px #000 solid;
+  border-radius: 100%;
+}
+
+.Rbottom2{
+  height: 145px;
+  width: 145px;
+  background: white;
+  border-radius: 100%;
+  border: 7px #000 solid;
+  margin: 0;
+  position: relative;
+  left: -30px;
+}
+
+.Rmaskleft2{
+  height: 210px;
+  width: 80px;
+  background: white;
+  border-right: 7px #000 solid;
+  position: relative;
+  top: -272px;
+  left: -30px;
+}
+
+.Rmaskbottom2{
+  height: 80px;
+  width: 250px;
+  background: white;
+  position: relative;
+  top: -280px;
+  left: -40px;
+}
+
+
+.Rtop3{
+  height: 98px;
+  width: 98px;
+  background: white;
+  border: 10px #000 solid;
+  border-radius: 100%;
+}
+
+.Rbottom3{
+  height: 145px;
+  width: 145px;
+  background: white;
+  border-radius: 100%;
+  border: 10px #000 solid;
+  margin: 0;
+  position: relative;
+  left: -30px;
+}
+
+.Rmaskleft3{
+  height: 210px;
+  width: 80px;
+  background: white;
+  border-right: 10px #000 solid;
+  position: relative;
+  top: -283px;
+  left: -30px;
+}
+
+.Rmaskbottom3{
+  height: 80px;
+  width: 250px;
+  background: white;
+  position: relative;
+  top: -295px;
+  left: -40px;
+}
+
+.Rtop4{
+  height: 98px;
+  width: 98px;
+  background: white;
+  border: 12px #000 solid;
+  border-radius: 100%;
+}
+
+.Rbottom4{
+  height: 145px;
+  width: 145px;
+  background: white;
+  border-radius: 100%;
+  border: 12px #000 solid;
+  margin: 0;
+  position: relative;
+  left: -30px;
+}
+
+.Rmaskleft4{
+  height: 210px;
+  width: 80px;
+  background: white;
+  border-right: 12px #000 solid;
+  position: relative;
+  top: -291px;
+  left: -30px;
+}
+
+.Rmaskbottom4{
+  height: 90px;
+  width: 250px;
+  background: white;
+  position: relative;
+  top: -300px;
+  left: -40px;
+}
+
+/*THIS IS THE LETTER T*/
+
+.Ttop{
+  width: 200px;
+  height: 3px;
+  background: #000;
+}
+
+.Tmiddle{
+  width: 3px;
+  height: 199px;
+  background: #000;
+  position: relative;
+  left: 100px;
+}
+
+.Ttop2{
+  width: 200px;
+  height: 7px;
+  background: #000;
+}
+
+.Tmiddle2{
+  width: 7px;
+  height: 196px;
+  background: #000;
+  position: relative;
+  left: 100px;
+}
+
+.Ttop3{
+  width: 200px;
+  height: 10px;
+  background: #000;
+}
+
+.Tmiddle3{
+  width: 10px;
+  height: 189px;
+  background: #000;
+  position: relative;
+  left: 100px;
+}
+
+.Ttop4{
+  width: 200px;
+  height: 12px;
+  background: #000;
+}
+
+.Tmiddle4{
+  width: 12px;
+  height: 187px;
+  background: #000;
+  position: relative;
+  left: 100px;
+}
+
+/*THIS IS THE LETTER I*/
+
+.I{
+  width: 3px;
+  height: 200px;
+  background: black;
+  position: relative;
+  left: 100px;
+}
+
+.I2{
+  width: 7px;
+  height: 200px;
+  background: black;
+  position: relative;
+  left: 100px;
+}
+
+.I3{
+  width: 10px;
+  height: 200px;
+  background: black;
+  position: relative;
+  left: 100px;
+}
+
+.I4{
+  width: 12px;
+  height: 200px;
+  background: black;
+  position: relative;
+  left: 100px;
+}
+
+/*THIS IS THE LETTER L*/
+
+.Lside{
+  width: 3px;
+  height: 200px;
+  background: #000;
+}
+
+.Lbottom{
+  width: 200px;
+  height: 3px;
+  background: #000;
+}
+
+.Lside2{
+  width: 7px;
+  height: 193px;
+  background: #000;
+}
+
+.Lbottom2{
+  width: 200px;
+  height: 7px;
+  background: #000;
+}
+
+.Lside3{
+  width: 10px;
+  height: 190px;
+  background: #000;
+}
+
+.Lbottom3{
+  width: 200px;
+  height: 10px;
+  background: #000;
+  position: relative;
+}
+
+.Lside4{
+  width: 12px;
+  height: 188px;
+  background: #000;
+}
+
+.Lbottom4{
+  width: 200px;
+  height: 12px;
+  background: #000;
+}
+
+/*THIS IS THE LETTER A*/
+
+.Aslantleft{
+  width: 3px;
+  height: 220px;
+  transform: rotate(27deg);
+  background: #000;
+  position: relative;
+  left: 50px;
+  top: -11px;
+}
+
+.Aslantright{
+  width: 3px;
+  height: 220px;
+  transform: rotate(-27deg);
+  background: #000;
+  position: relative;
+  left: 150px;
+  top: -230px;
+}
+
+.Across{
+  width: 114px;
+  height: 3px;
+  background: #000;
+  position: relative;
+  top: -330px;
+  left: 45px;
+}
+
+.Aslantleft2{
+  width: 7px;
+  height: 220px;
+  transform: rotate(27deg);
+  background: #000;
+  position: relative;
+  left: 50px;
+  top: -11px;
+}
+
+.Aslantright2{
+  width: 7px;
+  height: 220px;
+  transform: rotate(-27deg);
+  background: #000;
+  position: relative;
+  left: 150px;
+  top: -230px;
+}
+
+.Across2{
+  width: 114px;
+  height: 7px;
+  background: #000;
+  position: relative;
+  top: -330px;
+  left: 45px;
+}
+
+.Aslantleft3{
+  width: 10px;
+  height: 220px;
+  transform: rotate(27deg);
+  background: #000;
+  position: relative;
+  left: 50px;
+  top: -11px;
+}
+
+.Aslantright3{
+  width: 10px;
+  height: 220px;
+  transform: rotate(-27deg);
+  background: #000;
+  position: relative;
+  left: 150px;
+  top: -230px;
+}
+
+.Across3{
+  width: 114px;
+  height: 10px;
+  background: #000;
+  position: relative;
+  top: -330px;
+  left: 45px;
+}
+
+.Aslantleft4{
+  width: 12px;
+  height: 220px;
+  transform: rotate(27deg);
+  background: #000;
+  position: relative;
+  left: 50px;
+  top: -11px;
+}
+
+.Aslantright4{
+  width: 12px;
+  height: 220px;
+  transform: rotate(-27deg);
+  background: #000;
+  position: relative;
+  left: 150px;
+  top: -230px;
+}
+
+.Across4{
+  width: 114px;
+  height: 12px;
+  background: #000;
+  position: relative;
+  top: -330px;
+  left: 45px;
+}
+
+/*THIS IS THE LETTER D*/
+
+.Dcircle{
+  width: 200px;
+  height: 200px;
+  border-radius: 100%;
+  border: #000 solid;
+  background: white;
+}
+
+.Dmask{
+  width: 100px;
+  height: 206px;
+  background: white;
+  border-right: #000 solid;
+  position: relative;
+  top: -206px;
+}
+
+.Dcircle2{
+  width: 193px;
+  height: 193px;
+  border-radius: 100%;
+  border: 7px #000 solid;
+  background: white;
+}
+
+.Dmask2{
+  width: 95px;
+  height: 207px;
+  background: white;
+  border-right: 7px #000 solid;
+  position: relative;
+  top: -207px;
+}
+
+.Dcircle3{
+  width: 180px;
+  height: 180px;
+  border-radius: 100%;
+  border: 10px #000 solid;
+  background: white;
+}
+
+.Dmask3{
+  width: 90px;
+  height: 200px;
+  background: white;
+  border-right: 10px #000 solid;
+  position: relative;
+  top: -200px;
+}
+
+.Dcircle4{
+  width: 182px;
+  height: 182px;
+  border-radius: 100%;
+  border: 12px #000 solid;
+  background: white;
+}
+
+.Dmask4{
+  width: 88px;
+  height: 206px;
+  background: white;
+  border-right: 12px #000 solid;
+  position: relative;
+  top: -206px;
+}
+
+/*THIS IS THE LETTER F*/
+
+.Fside{
+  width: 5px;
+  height: 200px;
+  background: #000;
+}
+
+.Ftop{
+  width: 200px;
+  height: 5px;
+  background: #000;
+  position: relative;
+  top:-200px;
+}
+
+.Fcross{
+  width: 100px;
+  height: 5px;
+  background: #000;
+  position: relative;
+  top:-100px;
+}
+
+.Fside2{
+  width: 7px;
+  height: 200px;
+  background: #000;
+}
+
+.Ftop2{
+  width: 200px;
+  height: 7px;
+  background: #000;
+  position: relative;
+  top:-200px;
+}
+
+.Fcross2{
+  width: 100px;
+  height: 7px;
+  background: #000;
+  position: relative;
+  top:-100px;
+}
+
+.Fside3{
+  width: 10px;
+  height: 200px;
+  background: #000;
+}
+
+.Ftop3{
+  width: 200px;
+  height: 10px;
+  background: #000;
+  position: relative;
+  top:-200px;
+}
+
+.Fcross3{
+  width: 100px;
+  height: 10px;
+  background: #000;
+  position: relative;
+  top:-100px;
+}
+
+.Fside4{
+  width: 12px;
+  height: 200px;
+  background: #000;
+}
+
+.Ftop4{
+  width: 200px;
+  height: 12px;
+  background: #000;
+  position: relative;
+  top:-200px;
+}
+
+.Fcross4{
+  width: 100px;
+  height: 12px;
+  background: #000;
+  position: relative;
+  top:-100px;
+}
+
+/*THIS IS THE LETTER E*/
+
+.Eside{
+  width: 5px;
+  height: 200px;
+  background: #000;
+}
+
+.Etop{
+  width: 200px;
+  height: 5px;
+  background: #000;
+  position: relative;
+  top:-200px;
+}
+
+.Ecross{
+  width: 100px;
+  height: 5px;
+  background: #000;
+  position: relative;
+  top:-100px;
+}
+
+.Ebottom{
+  width: 200px;
+  height: 5px;
+  background: #000;
+  position: relative;
+  top: -15px;
+}
+
+.Eside2{
+  width: 7px;
+  height: 200px;
+  background: #000;
+}
+
+.Etop2{
+  width: 200px;
+  height: 7px;
+  background: #000;
+  position: relative;
+  top:-200px;
+}
+
+.Ecross2{
+  width: 100px;
+  height: 7px;
+  background: #000;
+  position: relative;
+  top:-100px;
+}
+
+.Ebottom2{
+  width: 200px;
+  height: 7px;
+  background: #000;
+  position: relative;
+  top: -20px;
+}
+
+.Eside3{
+  width: 10px;
+  height: 200px;
+  background: #000;
+}
+
+.Etop3{
+  width: 200px;
+  height: 10px;
+  background: #000;
+  position: relative;
+  top:-200px;
+}
+
+.Ecross3{
+  width: 100px;
+  height: 10px;
+  background: #000;
+  position: relative;
+  top:-100px;
+}
+
+.Ebottom3{
+  width: 200px;
+  height: 10px;
+  background: #000;
+  position: relative;
+  top: -30px;
+}
+
+.Eside4{
+  width: 12px;
+  height: 200px;
+  background: #000;
+}
+
+.Etop4{
+  width: 200px;
+  height: 12px;
+  background: #000;
+  position: relative;
+  top:-200px;
+}
+
+.Ecross4{
+  width: 100px;
+  height: 12px;
+  background: #000;
+  position: relative;
+  top:-100px;
+}
+
+.Ebottom4{
+  width: 200px;
+  height: 12px;
+  background: #000;
+  position: relative;
+  top: -35px;
+}
+
+/*THIS IS THE LETTER H*/
+
+.Hleft{
+  width: 5px;
+  height: 200px;
+  background: #000;
+}
+
+.Hright{
+  width: 5px;
+  height: 200px;
+  background: #000;
+  position: relative;
+  left: 195px;
+  top: -200px;
+}
+
+.Hcross{
+  width: 200px;
+  height: 5px;
+  background: #000;
+  position: relative;
+  top: -300px;
+}
+
+.Hleft2{
+  width: 7px;
+  height: 200px;
+  background: #000;
+}
+
+.Hright2{
+  width: 7px;
+  height: 200px;
+  background: #000;
+  position: relative;
+  left: 193px;
+  top: -200px;
+}
+
+.Hcross2{
+  width: 200px;
+  height: 7px;
+  background: #000;
+  position: relative;
+  top: -300px;
+}
+
+.Hleft3{
+  width: 10px;
+  height: 200px;
+  background: #000;
+}
+
+.Hright3{
+  width: 10px;
+  height: 200px;
+  background: #000;
+  position: relative;
+  left: 190px;
+  top: -200px;
+}
+
+.Hcross3{
+  width: 200px;
+  height: 10px;
+  background: #000;
+  position: relative;
+  top: -300px;
+}
+
+.Hleft4{
+  width: 12px;
+  height: 200px;
+  background: #000;
+}
+
+.Hright4{
+  width: 12px;
+  height: 200px;
+  background: #000;
+  position: relative;
+  left: 188px;
+  top: -200px;
+}
+
+.Hcross4{
+  width: 200px;
+  height: 12px;
+  background: #000;
+  position: relative;
+  top: -300px;
+}
+
+/*THIS IS THE LETTER P*/
+
+.Ptop{
+  width: 100px;
+  height: 100px;
+  border-radius: 100%;
+  border: #000 solid;
+  background: white;
+}
+.Pmask{
+  height: 200px;
+  width: 50px;
+  border-right: #000 solid;
+  background: white;
+  position: relative;
+  top: -106px;
+}
+
+.Ptop2{
+  width: 100px;
+  height: 100px;
+  border-radius: 100%;
+  border: 7px #000 solid;
+  background: white;
+}
+.Pmask2{
+  height: 200px;
+  width: 50px;
+  border-right: 7px #000 solid;
+  background: white;
+  position: relative;
+  top: -114px;
+}
+
+.Ptop3{
+  width: 100px;
+  height: 100px;
+  border-radius: 100%;
+  border: 10px #000 solid;
+  background: white;
+}
+.Pmask3{
+  height: 200px;
+  width: 50px;
+  border-right: 10px #000 solid;
+  background: white;
+  position: relative;
+  top: -120px;
+}
+
+.Ptop4{
+  width: 100px;
+  height: 100px;
+  border-radius: 100%;
+  border: 12px #000 solid;
+  background: white;
+}
+.Pmask4{
+  height: 200px;
+  width: 50px;
+  border-right: 12px #000 solid;
+  background: white;
+  position: relative;
+  top: -124px;
+}
+
+/*THIS IS THE LETTER J*/
+
+.Jleg{
+  height: 150px;
+  width: 5px;
+  background: #000;
+  position: relative;
+  left: 195px;
+}
+
+.Jcircle{
+  height: 100px;
+  width: 100px;
+  background: white;
+  border: 5px #000 solid;
+  border-radius: 100%;
+  position: relative;
+  left: 90px;
+  bottom: 55px;
+}
+
+.Jmask{
+  height: 60px;
+  width: 105px;
+  background: white;
+  position: relative;
+  bottom: 165px;
+  left: 90px;
+}
+
+.Jleg2{
+  height: 150px;
+  width: 7px;
+  background: #000;
+  position: relative;
+  left: 193px;
+}
+
+.Jcircle2{
+  height: 100px;
+  width: 100px;
+  background: white;
+  border: 7px #000 solid;
+  border-radius: 100%;
+  position: relative;
+  left: 86px;
+  bottom: 66px;
+}
+
+.Jmask2{
+  height: 75px;
+  width: 110px;
+  background: white;
+  position: relative;
+  bottom: 190px;
+  left: 83px;
+}
+
+.Jleg3{
+  height: 150px;
+  width: 10px;
+  background: #000;
+  position: relative;
+  left: 190px;
+}
+
+.Jcircle3{
+  height: 100px;
+  width: 100px;
+  background: white;
+  border: 10px #000 solid;
+  border-radius: 100%;
+  position: relative;
+  left: 80px;
+  bottom: 70px;
+}
+
+.Jmask3{
+  height: 71px;
+  width: 110px;
+  background: white;
+  position: relative;
+  bottom: 191px;
+  left: 80px;
+}
+
+.Jleg4{
+  height: 150px;
+  width: 12px;
+  background: #000;
+  position: relative;
+  left: 188px;
+}
+
+.Jcircle4{
+  height: 100px;
+  width: 100px;
+  background: white;
+  border: 12px #000 solid;
+  border-radius: 100%;
+  position: relative;
+  left: 76px;
+  bottom: 75px;
+}
+
+.Jmask4{
+  height: 80px;
+  width: 113px;
+  background: white;
+  position: relative;
+  bottom: 210px;
+  left: 75px;
+}
+
+/*THIS IS THE LETTER U*/
+
+.Ucircle{
+  width: 196px;
+  height: 196px;
+  border-radius: 100%;
+  border: #000 solid;
+  background: white;
+}
+
+.Umask{
+  width: 196px;
+  height: 100px;
+  border-left: #000 solid;
+  border-right: #000 solid;
+  position: relative;
+  bottom: 205px;
+  background: white;
+}
+
+.Ucircle2{
+  width: 190px;
+  height: 190px;
+  border-radius: 100%;
+  border: 7px #000 solid;
+  background: white;
+}
+
+.Umask2{
+  width: 190px;
+  height: 100px;
+  border-left: 7px #000 solid;
+  border-right: 7px #000 solid;
+  position: relative;
+  bottom: 205px;
+  background: white;
+}
+
+.Ucircle3{
+  width: 185px;
+  height: 185px;
+  border-radius: 100%;
+  border: 10px #000 solid;
+  background: white;
+}
+
+.Umask3{
+  width: 185px;
+  height: 100px;
+  border-left: 10px #000 solid;
+  border-right: 10px #000 solid;
+  position: relative;
+  bottom: 205px;
+  background: white;
+}
+
+.Ucircle4{
+  width: 180px;
+  height: 180px;
+  border-radius: 100%;
+  border: 12px #000 solid;
+  background: white;
+}
+
+.Umask4{
+  width: 180px;
+  height: 100px;
+  border-left: 12px #000 solid;
+  border-right: 12px #000 solid;
+  position: relative;
+  bottom: 205px;
+  background: white;
+}
+
+/*THIS IS THE LETTER V*/
+
+.Vleft{
+  width: 5px;
+  height: 215px;
+  transform: rotate(-27deg);
+  background: #000;
+  position: relative;
+  left: 50px;
+  bottom: 5px;
+}
+
+.Vright{
+  width: 5px;
+  height: 215px;
+  transform: rotate(27deg);
+  background: #000;
+  position: relative;
+  left: 150px;
+  bottom: 220px;
+}
+
+.Vleft2{
+  width: 7px;
+  height: 215px;
+  transform: rotate(-27deg);
+  background: #000;
+  position: relative;
+  left: 50px;
+  bottom: 5px;
+}
+
+.Vright2{
+  width: 7px;
+  height: 215px;
+  transform: rotate(27deg);
+  background: #000;
+  position: relative;
+  left: 150px;
+  bottom: 220px;
+}
+
+.Vleft3{
+  width: 10px;
+  height: 215px;
+  transform: rotate(-27deg);
+  background: #000;
+  position: relative;
+  left: 50px;
+  bottom: 5px;
+}
+
+.Vright3{
+  width: 10px;
+  height: 215px;
+  transform: rotate(27deg);
+  background: #000;
+  position: relative;
+  left: 150px;
+  bottom: 220px;
+}
+
+.Vleft4{
+  width: 12px;
+  height: 215px;
+  transform: rotate(-27deg);
+  background: #000;
+  position: relative;
+  left: 50px;
+  bottom: 5px;
+}
+
+.Vright4{
+  width: 12px;
+  height: 215px;
+  transform: rotate(27deg);
+  background: #000;
+  position: relative;
+  left: 150px;
+  bottom: 220px;
+}
+
+/*THIS IS THE LETTER W*/
+
+.Wleft1{
+  width: 5px;
+  height: 215px;
+  transform: rotate(-27deg);
+  background: #000;
+  position: relative;
+  left: 50px;
+  bottom: 5px;
+}
+
+.Wright1{
+  width: 5px;
+  height: 215px;
+  transform: rotate(27deg);
+  background: #000;
+  position: relative;
+  left: 150px;
+  bottom: 220px;
+}
+
+.Wleft2{
+  width: 5px;
+  height: 215px;
+  transform: rotate(-27deg);
+  background: #000;
+  position: relative;
+  left: 245px;
+  bottom: 435px;
+}
+
+.Wright2{
+  width: 5px;
+  height: 215px;
+  transform: rotate(27deg);
+  background: #000;
+  position: relative;
+  left: 340px;
+  bottom:650px;
+}
+
+
+.Wleft12{
+  width: 7px;
+  height: 215px;
+  transform: rotate(-27deg);
+  background: #000;
+  position: relative;
+  left: 50px;
+  bottom: 5px;
+}
+
+.Wright12{
+  width: 7px;
+  height: 215px;
+  transform: rotate(27deg);
+  background: #000;
+  position: relative;
+  left: 150px;
+  bottom: 220px;
+}
+
+.Wleft22{
+  width: 7px;
+  height: 215px;
+  transform: rotate(-27deg);
+  background: #000;
+  position: relative;
+  left: 245px;
+  bottom: 435px;
+}
+
+.Wright22{
+  width: 7px;
+  height: 215px;
+  transform: rotate(27deg);
+  background: #000;
+  position: relative;
+  left: 340px;
+  bottom:650px;
+}
+
+.Wleft13{
+  width: 10px;
+  height: 215px;
+  transform: rotate(-27deg);
+  background: #000;
+  position: relative;
+  left: 50px;
+  bottom: 5px;
+}
+
+.Wright13{
+  width: 10px;
+  height: 215px;
+  transform: rotate(27deg);
+  background: #000;
+  position: relative;
+  left: 150px;
+  bottom: 220px;
+}
+
+.Wleft23{
+  width: 10px;
+  height: 215px;
+  transform: rotate(-27deg);
+  background: #000;
+  position: relative;
+  left: 245px;
+  bottom: 435px;
+}
+
+.Wright23{
+  width: 10px;
+  height: 215px;
+  transform: rotate(27deg);
+  background: #000;
+  position: relative;
+  left: 340px;
+  bottom:650px;
+}
+
+.Wleft14{
+  width: 12px;
+  height: 215px;
+  transform: rotate(-27deg);
+  background: #000;
+  position: relative;
+  left: 50px;
+  bottom: 5px;
+}
+
+.Wright14{
+  width: 12px;
+  height: 215px;
+  transform: rotate(27deg);
+  background: #000;
+  position: relative;
+  left: 150px;
+  bottom: 220px;
+}
+
+.Wleft24{
+  width: 12px;
+  height: 215px;
+  transform: rotate(-27deg);
+  background: #000;
+  position: relative;
+  left: 245px;
+  bottom: 435px;
+}
+
+.Wright24{
+  width: 12px;
+  height: 215px;
+  transform: rotate(27deg);
+  background: #000;
+  position: relative;
+  left: 337px;
+  bottom:650px;
+}
+
+/*THIS IS THE LETTER X*/
+
+.Xleft{
+  width: 5px;
+  height: 220px;
+  transform: rotate(27deg);
+  background: #000;
+  position: relative;
+  left: 100px;
+  top: -11px;
+}
+
+.Xright{
+  width: 5px;
+  height: 220px;
+  transform: rotate(-27deg);
+  background: #000;
+  position: relative;
+  left: 100px;
+  top: -230px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
