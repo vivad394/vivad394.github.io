@@ -1,19 +1,25 @@
 .wrapper{
 	width: 200px;
 	height: 200px;
-	background: yellow;
   position: relative;
-  margin: 10px;
+  margin: 8px;
+  display: inline-block;
 }
 
 /*THIS IS THE LETTER G*/
+
+.G1{
+  position: relative;
+  bottom: 230px;
+  left: 500px;
+}
 
 .gouter {
   width: 200px;
   height: 200px;
   border-radius: 100%;
-  background-color: black;
-  position: relative;
+  background-color: white;
+  position: absolute;
   margin: 20px;
   
 }
@@ -21,7 +27,7 @@
   width: 194px;
   height: 194px;
   border-radius: 100%;
-  background-color: white;
+  background-color: #A1D3F8;
   position: absolute;
   left: 5px;
   
@@ -31,10 +37,10 @@
   position: absolute;
   top:-10px;
   right: 0px;
-  background-color: white;
+  background-color: #A1D3F8;
   width: 100px;
   height: 130px;
-  border-bottom: 3px solid black
+  border-bottom: 3px solid white;
 }
 
 
@@ -130,20 +136,26 @@
 
 /*THIS IS THE LETTER O*/
 
+.O1{
+  position: relative;
+  left: -40px;
+}
+
 .Oouter{
   width: 200px;
   height: 200px;
   border-radius: 100%;
-  background-color: black;
+  background-color: white;
   position: relative;
   margin: 20px;
+  z-index: 5;
 }
 
 .Oinner{
   width: 195px;
   height: 195px;
   border-radius: 100%;
-  background-color: white;
+  background-color: #A1D3F8;
   position: relative;
   left: 3px;
   top: 3px;
@@ -151,23 +163,18 @@
 }
 
 .Oouter2{
-  width: 200px;
-  height: 200px;
+  width: 150px;
+  height: 150px;
   border-radius: 100%;
-  background-color: black;
+  background-color: #FBEA8A;
+  border: white 7px solid;
   position: relative;
   margin: 20px;
-}
+  left: 770px;
+  bottom: 235px;
+  z-index: 5;
+  margin-top: 110px;
 
-.Oinner2{
-  width: 185px;
-  height: 185px;
-  border-radius: 100%;
-  background-color: white;
-  position: relative;
-  left: 7px;
-  top: 7px;
- 
 }
 
 .Oouter3{
@@ -194,16 +201,18 @@
   width: 200px;
   height: 200px;
   border-radius: 100%;
-  background-color: black;
+  background-color: white;
   position: relative;
   margin: 20px;
+  right: 190px;
+  bottom: 10px;
 }
 
 .Oinner4{
   width: 165px;
   height: 165px;
   border-radius: 100%;
-  background-color: white;
+  background-color: #040A23;
   position: relative;
   left: 17px;
   top: 17px;
@@ -305,16 +314,18 @@
   width: 200px;
   height: 200px;
   border-radius: 100%;
-  background-color: black;
+  background-color: white;
   position: relative;
   margin: 20px;
+  top: 170px;
+  right: 10px;
 }
 
 .Qinner4{
   width: 165px;
   height: 165px;
   border-radius: 100%;
-  background-color: white;
+  background-color: #040A23;
   position: relative;
   left: 17px;
   top: 17px;
@@ -323,7 +334,7 @@
 .Qtail4{
  	width: 12px;
  	height: 70px;
- 	background: black;
+ 	background: white;
  	transform: rotate(-45deg);
  	position: absolute;
  	left: 180px;
@@ -337,7 +348,8 @@
 	width: 90px;
 	border-radius: 100%;
 	background: #fff;
-	border: #000 solid;
+	border: white
+   solid;
 }
 
 .bbottom{
@@ -345,14 +357,16 @@
 	width: 100px;
 	border-radius: 100%;
 	background: #fff;
-	border: #000 solid;
+	border: white
+   solid;
 }
 
 .bmask{
 	height: 202px;
 	width: 50px;
 	background: #fff;
-	border-right: 3px #000 solid;
+	border-right: 3px white
+   solid;
   position: relative;
 	top: -202px;
 }
@@ -362,7 +376,8 @@
 	width: 85px;
 	border-radius: 100%;
 	background: #fff;
-	border: #000 5px solid;
+	border: white
+   5px solid;
   position: relative;
 }
 
@@ -371,7 +386,8 @@
 	width: 95px;
 	border-radius: 100%;
 	background: #fff;
-	border: #000 5px solid;
+	border: white
+   5px solid;
 
 }
 
@@ -379,7 +395,8 @@
 	height: 200px;
 	width: 50px;
 	background: #fff;
-	border-right: 5px #000 solid;
+	border-right: 5px white
+   solid;
 	position: relative;
 	top: -200px;
 }
@@ -389,7 +406,8 @@
   width: 80px;
   border-radius: 100%;
   background: #fff;
-  border: #000 7px solid;
+  border: white
+   7px solid;
   position: relative;
 }
 
@@ -398,7 +416,8 @@
   width: 91px;
   border-radius: 100%;
   background: #fff;
-  border: #000 7px solid;
+  border: white
+   7px solid;
 
 }
 
@@ -406,7 +425,8 @@
   height: 200px;
   width: 50px;
   background: #fff;
-  border-right: 7px #000 solid;
+  border-right: 7px white
+   solid;
   position: relative;
   top: -199px;
 }
@@ -416,7 +436,8 @@
   width: 75px;
   border-radius: 100%;
   background: #fff;
-  border: #000 10px solid;
+  border: white
+   10px solid;
   position: relative;
 }
 
@@ -425,7 +446,8 @@
   width: 85px;
   border-radius: 100%;
   background: #fff;
-  border: #000 10px solid;
+  border: white
+   10px solid;
 
 }
 
@@ -433,7 +455,8 @@
   height: 200px;
   width: 50px;
   background: #fff;
-  border-right: 10px #000 solid;
+  border-right: 10px white
+   solid;
   position: relative;
   top: -200px;
 }
@@ -446,7 +469,8 @@
   border-radius: 100%;
   background: white;
   position: relative;
-  border: #000 solid;
+  border: white
+   solid;
 }
 
 .Cmask{
@@ -459,21 +483,24 @@
 }
 
 .Cinner2{
-  width: 192px;
-  height: 192px;
+  width: 155px;
+  height: 155px;
   border-radius: 100%;
-  background: white;
+  background: #FBEA8A;
   position: relative;
-  border: 7px #000 solid;
+  border: 7px white solid;
+  bottom: 220px;
+  left: 210px;
+  margin-top: 100px;
 }
 
 .Cmask2{
   height: 100px;
   width: 35px;
-  background: white;
+  background: #FBEA8A;
   position: absolute;
-  top: 55px;
-  left: 172px;
+  bottom: 195px;
+  left: 335px;
 }
 
 .Cinner3{
@@ -482,7 +509,8 @@
   border-radius: 100%;
   background: white;
   position: relative;
-  border: 9px #000 solid;
+  border: 9px white
+   solid;
 }
 
 .Cmask3{
@@ -498,18 +526,20 @@
   width: 180px;
   height: 180px;
   border-radius: 100%;
-  background: white;
-  position: relative;
-  border: 13px #000 solid;
+  background: #040A23;
+  position: absolute;
+  border: 13px white solid;
+  right: 190px;
+  top: 200px;
 }
 
 .Cmask4{
   height: 100px;
   width: 35px;
-  background: white;
+  background: #040A23;
   position: absolute;
-  top: 55px;
-  left: 172px;
+  top: 245px;
+  right: 190px;
 }
 
 /*THIS IS THE LETTER R */
@@ -517,77 +547,88 @@
 .Rtop{
   height: 100px;
   width: 100px;
-  background: white;
-  border: #000 solid;
+  background:  #A1D3F8;
+  border: white solid;
   border-radius: 100%;
+  position: relative;
+  z-index: 0;
+  right: -5px;
+  left: -40px;
 }
 
 .Rbottom{
   height: 150px;
   width: 150px;
-  background: white;
+  background:  #A1D3F8;
   border-radius: 100%;
-  border: #000 solid;
+  border: white solid;
   margin: 0;
   position: relative;
-  left: -30px;
+  left: -70px;
+
 }
 
 .Rmaskleft{
   height: 210px;
   width: 80px;
-  background: white;
-  border-right: #000 solid;
+  background:  #A1D3F8;
+  border-right: white solid;
   position: relative;
-  top: -262px;
-  left: -30px;
+  top: -250px;
+  left: -70px;
 }
 
 .Rmaskbottom{
   height: 80px;
   width: 250px;
-  background: white;
+  background:  #A1D3F8;
   position: relative;
   top: -280px;
-  left: -40px;
+  left: -80px;
 }
 
 .Rtop2{
-  height: 98px;
-  width: 98px;
-  background: white;
-  border: 7px #000 solid;
+  height: 65px;
+  width: 65px;
+  background: #FBEA8A;
+  border: 7px white solid;
   border-radius: 100%;
+  position: relative;
+  left: 720px;
+  bottom: 220px;
+  margin-top: 100px;
 }
 
 .Rbottom2{
-  height: 145px;
-  width: 145px;
-  background: white;
+  height: 115px;
+  width: 115px;
+  background: #FBEA8A;
   border-radius: 100%;
-  border: 7px #000 solid;
+  border: 7px white solid;
   margin: 0;
   position: relative;
-  left: -30px;
+  left: 700px;
+  bottom: 220px;
 }
 
 .Rmaskleft2{
-  height: 210px;
+  height: 150px;
   width: 80px;
-  background: white;
-  border-right: 7px #000 solid;
+  background: #FBEA8A;
+  border-right: 7px white solid;
   position: relative;
-  top: -272px;
-  left: -30px;
+  bottom: 400px;
+  left: 670px;
+  z-index: 2
 }
 
 .Rmaskbottom2{
-  height: 80px;
-  width: 250px;
-  background: white;
+  height: 90px;
+  width: 150px;
+  background: #FBEA8A;
   position: relative;
-  top: -280px;
-  left: -40px;
+  left: 700px;
+  bottom: 400px
 }
 
 
@@ -595,7 +636,8 @@
   height: 98px;
   width: 98px;
   background: white;
-  border: 10px #000 solid;
+  border: 10px white
+   solid;
   border-radius: 100%;
 }
 
@@ -604,7 +646,8 @@
   width: 145px;
   background: white;
   border-radius: 100%;
-  border: 10px #000 solid;
+  border: 10px white
+   solid;
   margin: 0;
   position: relative;
   left: -30px;
@@ -614,7 +657,8 @@
   height: 210px;
   width: 80px;
   background: white;
-  border-right: 10px #000 solid;
+  border-right: 10px white
+   solid;
   position: relative;
   top: -283px;
   left: -30px;
@@ -633,7 +677,8 @@
   height: 98px;
   width: 98px;
   background: white;
-  border: 12px #000 solid;
+  border: 12px white
+   solid;
   border-radius: 100%;
 }
 
@@ -642,7 +687,8 @@
   width: 145px;
   background: white;
   border-radius: 100%;
-  border: 12px #000 solid;
+  border: 12px white
+   solid;
   margin: 0;
   position: relative;
   left: -30px;
@@ -652,7 +698,8 @@
   height: 210px;
   width: 80px;
   background: white;
-  border-right: 12px #000 solid;
+  border-right: 12px white
+   solid;
   position: relative;
   top: -291px;
   left: -30px;
@@ -672,41 +719,48 @@
 .Ttop{
   width: 200px;
   height: 3px;
-  background: #000;
+  background: white
+  ;
 }
 
 .Tmiddle{
   width: 3px;
   height: 199px;
-  background: #000;
+  background: white
+  ;
   position: relative;
   left: 100px;
 }
 
 .Ttop2{
-  width: 200px;
+  width: 150px;
   height: 7px;
-  background: #000;
+  background: white;
+  margin-top: 100px;
 }
 
 .Tmiddle2{
   width: 7px;
-  height: 196px;
-  background: #000;
+  height: 150px;
+  background: white;
   position: relative;
-  left: 100px;
+  left: 75px;
+
+
 }
 
 .Ttop3{
   width: 200px;
   height: 10px;
-  background: #000;
+  background: white
+  ;
 }
 
 .Tmiddle3{
   width: 10px;
   height: 189px;
-  background: #000;
+  background: white
+  ;
   position: relative;
   left: 100px;
 }
@@ -714,13 +768,15 @@
 .Ttop4{
   width: 200px;
   height: 12px;
-  background: #000;
+  background: white
+  ;
 }
 
 .Tmiddle4{
   width: 12px;
   height: 187px;
-  background: #000;
+  background: white
+  ;
   position: relative;
   left: 100px;
 }
@@ -730,33 +786,35 @@
 .I{
   width: 3px;
   height: 200px;
-  background: black;
+  background: white;
   position: relative;
-  left: 100px;
+  left: -135px;
 }
 
 .I2{
   width: 7px;
-  height: 200px;
-  background: black;
+  height: 150px;
+  background: white;
   position: relative;
-  left: 100px;
+  left: 10px;
+  margin-top: 100px;
 }
 
 .I3{
   width: 10px;
   height: 200px;
-  background: black;
+  background: white;
   position: relative;
   left: 100px;
 }
 
 .I4{
   width: 12px;
-  height: 200px;
-  background: black;
+  height: 180px;
+  background: white;
   position: relative;
-  left: 100px;
+  left: 0px;
+  top: 200px;
 }
 
 /*THIS IS THE LETTER L*/
@@ -764,50 +822,61 @@
 .Lside{
   width: 3px;
   height: 200px;
-  background: #000;
+  background: white
+  ;
 }
 
 .Lbottom{
   width: 200px;
   height: 3px;
-  background: #000;
+  background: white
+  ;
 }
 
 .Lside2{
   width: 7px;
-  height: 193px;
-  background: #000;
+  height: 150px;
+  background: white;
+  position: relative;
+  right: 365px;
+  margin-top: 100px;
 }
 
 .Lbottom2{
-  width: 200px;
+  width: 150px;
   height: 7px;
-  background: #000;
+  background: white;
+  position: relative;
+  right: 365px;
 }
 
 .Lside3{
   width: 10px;
   height: 190px;
-  background: #000;
+  background: white
+  ;
 }
 
 .Lbottom3{
   width: 200px;
   height: 10px;
-  background: #000;
+  background: white
+  ;
   position: relative;
 }
 
 .Lside4{
   width: 12px;
   height: 188px;
-  background: #000;
+  background: white
+  ;
 }
 
 .Lbottom4{
   width: 200px;
   height: 12px;
-  background: #000;
+  background: white
+  ;
 }
 
 /*THIS IS THE LETTER A*/
@@ -816,7 +885,8 @@
   width: 3px;
   height: 220px;
   transform: rotate(27deg);
-  background: #000;
+  background: white
+  ;
   position: relative;
   left: 50px;
   top: -11px;
@@ -826,7 +896,8 @@
   width: 3px;
   height: 220px;
   transform: rotate(-27deg);
-  background: #000;
+  background: white
+  ;
   position: relative;
   left: 150px;
   top: -230px;
@@ -835,7 +906,8 @@
 .Across{
   width: 114px;
   height: 3px;
-  background: #000;
+  background: white
+  ;
   position: relative;
   top: -330px;
   left: 45px;
@@ -845,7 +917,8 @@
   width: 7px;
   height: 220px;
   transform: rotate(27deg);
-  background: #000;
+  background: white
+  ;
   position: relative;
   left: 50px;
   top: -11px;
@@ -855,7 +928,8 @@
   width: 7px;
   height: 220px;
   transform: rotate(-27deg);
-  background: #000;
+  background: white
+  ;
   position: relative;
   left: 150px;
   top: -230px;
@@ -864,7 +938,8 @@
 .Across2{
   width: 114px;
   height: 7px;
-  background: #000;
+  background: white
+  ;
   position: relative;
   top: -330px;
   left: 45px;
@@ -874,7 +949,8 @@
   width: 10px;
   height: 220px;
   transform: rotate(27deg);
-  background: #000;
+  background: white
+  ;
   position: relative;
   left: 50px;
   top: -11px;
@@ -884,7 +960,8 @@
   width: 10px;
   height: 220px;
   transform: rotate(-27deg);
-  background: #000;
+  background: white
+  ;
   position: relative;
   left: 150px;
   top: -230px;
@@ -893,7 +970,7 @@
 .Across3{
   width: 114px;
   height: 10px;
-  background: #000;
+  background: white;
   position: relative;
   top: -330px;
   left: 45px;
@@ -903,29 +980,28 @@
   width: 12px;
   height: 220px;
   transform: rotate(27deg);
-  background: #000;
-  position: relative;
-  left: 50px;
-  top: -11px;
+  background: white;
+  position: absolute;
+  bottom: -200px;
 }
 
 .Aslantright4{
   width: 12px;
   height: 220px;
   transform: rotate(-27deg);
-  background: #000;
-  position: relative;
-  left: 150px;
-  top: -230px;
+  background: white;
+  position: absolute;
+  top: 180px;
+  left: 95px;
 }
 
 .Across4{
   width: 114px;
   height: 12px;
-  background: #000;
-  position: relative;
-  top: -330px;
-  left: 45px;
+  background: white;
+  position: absolute;
+  top: 300px;
+
 }
 
 /*THIS IS THE LETTER D*/
@@ -934,24 +1010,25 @@
   width: 200px;
   height: 200px;
   border-radius: 100%;
-  border: #000 solid;
-  background: white;
+  border: #fff solid;
+  background:  #A1D3F8;
 }
 
 .Dmask{
   width: 100px;
-  height: 206px;
-  background: white;
-  border-right: #000 solid;
+  height: 200px;
+  background:  #A1D3F8;
+  border-right: #fff solid;
   position: relative;
-  top: -206px;
+  top: -200px;
 }
 
 .Dcircle2{
   width: 193px;
   height: 193px;
   border-radius: 100%;
-  border: 7px #000 solid;
+  border: 7px white
+   solid;
   background: white;
 }
 
@@ -959,24 +1036,26 @@
   width: 95px;
   height: 207px;
   background: white;
-  border-right: 7px #000 solid;
+  border-right: 7px white
+   solid;
   position: relative;
   top: -207px;
 }
 
 .Dcircle3{
-  width: 180px;
-  height: 180px;
+  width: 197px;
+  height: 197px;
   border-radius: 100%;
-  border: 10px #000 solid;
-  background: white;
+  border: 10px white solid;
+  background:  #F37000;
 }
 
 .Dmask3{
   width: 90px;
   height: 200px;
-  background: white;
-  border-right: 10px #000 solid;
+  background:  #F37000;
+  border-right: 10px white
+   solid;
   position: relative;
   top: -200px;
 }
@@ -985,15 +1064,15 @@
   width: 182px;
   height: 182px;
   border-radius: 100%;
-  border: 12px #000 solid;
-  background: white;
+  border: 12px white solid;
+  background: #040A23;
 }
 
 .Dmask4{
   width: 88px;
   height: 206px;
-  background: white;
-  border-right: 12px #000 solid;
+  background: #040A23;
+  border-right: 12px white solid;
   position: relative;
   top: -206px;
 }
@@ -1003,13 +1082,15 @@
 .Fside{
   width: 5px;
   height: 200px;
-  background: #000;
+  background: white
+  ;
 }
 
 .Ftop{
   width: 200px;
   height: 5px;
-  background: #000;
+  background: white
+  ;
   position: relative;
   top:-200px;
 }
@@ -1017,43 +1098,51 @@
 .Fcross{
   width: 100px;
   height: 5px;
-  background: #000;
+  background: white
+  ;
   position: relative;
   top:-100px;
 }
 
 .Fside2{
   width: 7px;
-  height: 200px;
-  background: #000;
+  height: 150px;
+  background: white;
+  position: relative;
+  right: 250px;
+  margin-top: 100px;
 }
 
 .Ftop2{
-  width: 200px;
+  width: 150px;
   height: 7px;
-  background: #000;
+  background: white;
   position: relative;
-  top:-200px;
+  top:-150px;
+  right: 250px;
 }
 
 .Fcross2{
-  width: 100px;
+  width: 50px;
   height: 7px;
-  background: #000;
+  background: white;
   position: relative;
-  top:-100px;
+  top:-75px;
+  right: 250px;
 }
 
 .Fside3{
   width: 10px;
   height: 200px;
-  background: #000;
+  background: white
+  ;
 }
 
 .Ftop3{
   width: 200px;
   height: 10px;
-  background: #000;
+  background: white
+  ;
   position: relative;
   top:-200px;
 }
@@ -1061,7 +1150,8 @@
 .Fcross3{
   width: 100px;
   height: 10px;
-  background: #000;
+  background: white
+  ;
   position: relative;
   top:-100px;
 }
@@ -1069,13 +1159,15 @@
 .Fside4{
   width: 12px;
   height: 200px;
-  background: #000;
+  background: white
+  ;
 }
 
 .Ftop4{
   width: 200px;
   height: 12px;
-  background: #000;
+  background: white
+  ;
   position: relative;
   top:-200px;
 }
@@ -1083,7 +1175,8 @@
 .Fcross4{
   width: 100px;
   height: 12px;
-  background: #000;
+  background: white
+  ;
   position: relative;
   top:-100px;
 }
@@ -1093,13 +1186,15 @@
 .Eside{
   width: 5px;
   height: 200px;
-  background: #000;
+  background: white
+  ;
 }
 
 .Etop{
   width: 200px;
   height: 5px;
-  background: #000;
+  background: white
+  ;
   position: relative;
   top:-200px;
 }
@@ -1107,7 +1202,8 @@
 .Ecross{
   width: 100px;
   height: 5px;
-  background: #000;
+  background: white
+  ;
   position: relative;
   top:-100px;
 }
@@ -1115,51 +1211,60 @@
 .Ebottom{
   width: 200px;
   height: 5px;
-  background: #000;
+  background: white
+  ;
   position: relative;
   top: -15px;
 }
 
 .Eside2{
   width: 7px;
-  height: 200px;
-  background: #000;
+  height: 150px;
+  background: white;
+  position: relative;
+  right: 200px;
+  margin-top: 100px;
 }
 
 .Etop2{
-  width: 200px;
+  width: 100px;
   height: 7px;
-  background: #000;
+  background: white;
   position: relative;
-  top:-200px;
+  top:-150px;
+  right: 200px
 }
 
 .Ecross2{
-  width: 100px;
+  width: 50px;
   height: 7px;
-  background: #000;
+  background: white;
   position: relative;
-  top:-100px;
+  top:-75px;
+  right: 200px;
 }
 
 .Ebottom2{
-  width: 200px;
+  width: 100px;
   height: 7px;
-  background: #000;
+  background: white;
   position: relative;
   top: -20px;
+  right: 200px;
 }
 
 .Eside3{
   width: 10px;
   height: 200px;
-  background: #000;
+  background: white
+  ;
 }
 
 .Etop3{
   width: 200px;
   height: 10px;
-  background: #000;
+  background: white
+  ;
   position: relative;
   top:-200px;
 }
@@ -1167,7 +1272,8 @@
 .Ecross3{
   width: 100px;
   height: 10px;
-  background: #000;
+  background: white
+  ;
   position: relative;
   top:-100px;
 }
@@ -1175,7 +1281,8 @@
 .Ebottom3{
   width: 200px;
   height: 10px;
-  background: #000;
+  background: white
+  ;
   position: relative;
   top: -30px;
 }
@@ -1183,31 +1290,37 @@
 .Eside4{
   width: 12px;
   height: 200px;
-  background: #000;
+  background: white;
+  position: relative;
+  bottom: 220px;
+  left: 450px;
 }
 
 .Etop4{
   width: 200px;
   height: 12px;
-  background: #000;
-  position: relative;
-  top:-200px;
+  background: white;
+  position: absolute;
+  top:-230px;
+  left: 450px;
 }
 
 .Ecross4{
   width: 100px;
   height: 12px;
-  background: #000;
+  background: white;
   position: relative;
-  top:-100px;
+  top:-320px;
+  left: 450px;
 }
 
 .Ebottom4{
   width: 200px;
   height: 12px;
-  background: #000;
+  background: white;
   position: relative;
-  top: -35px;
+  top: -240px;
+  left: 450px;
 }
 
 /*THIS IS THE LETTER H*/
@@ -1215,13 +1328,15 @@
 .Hleft{
   width: 5px;
   height: 200px;
-  background: #000;
+  background: white
+  ;
 }
 
 .Hright{
   width: 5px;
   height: 200px;
-  background: #000;
+  background: white
+  ;
   position: relative;
   left: 195px;
   top: -200px;
@@ -1230,44 +1345,51 @@
 .Hcross{
   width: 200px;
   height: 5px;
-  background: #000;
+  background: white;
   position: relative;
   top: -300px;
 }
 
 .Hleft2{
   width: 7px;
-  height: 200px;
-  background: #000;
+  height: 150px;
+  background: white;
+  position: relative;
+  bottom: 220px;
+  left: 170px;
+  margin-top: 100px;
 }
 
 .Hright2{
   width: 7px;
-  height: 200px;
-  background: #000;
+  height: 150px;
+  background: white;
   position: relative;
-  left: 193px;
-  top: -200px;
+  left: 320px;
+  bottom: 370px;
 }
 
 .Hcross2{
-  width: 200px;
+  width: 150px;
   height: 7px;
-  background: #000;
+  background: white;
   position: relative;
-  top: -300px;
+  bottom: 450px;
+  left: 175px;
 }
 
 .Hleft3{
   width: 10px;
   height: 200px;
-  background: #000;
+  background: white
+  ;
 }
 
 .Hright3{
   width: 10px;
   height: 200px;
-  background: #000;
+  background: white
+  ;
   position: relative;
   left: 190px;
   top: -200px;
@@ -1276,7 +1398,8 @@
 .Hcross3{
   width: 200px;
   height: 10px;
-  background: #000;
+  background: white
+  ;
   position: relative;
   top: -300px;
 }
@@ -1284,13 +1407,15 @@
 .Hleft4{
   width: 12px;
   height: 200px;
-  background: #000;
+  background: white
+  ;
 }
 
 .Hright4{
   width: 12px;
   height: 200px;
-  background: #000;
+  background: white
+  ;
   position: relative;
   left: 188px;
   top: -200px;
@@ -1299,7 +1424,8 @@
 .Hcross4{
   width: 200px;
   height: 12px;
-  background: #000;
+  background: white
+  ;
   position: relative;
   top: -300px;
 }
@@ -1310,13 +1436,15 @@
   width: 100px;
   height: 100px;
   border-radius: 100%;
-  border: #000 solid;
+  border: white
+   solid;
   background: white;
 }
 .Pmask{
   height: 200px;
   width: 50px;
-  border-right: #000 solid;
+  border-right: white
+   solid;
   background: white;
   position: relative;
   top: -106px;
@@ -1326,13 +1454,15 @@
   width: 100px;
   height: 100px;
   border-radius: 100%;
-  border: 7px #000 solid;
+  border: 7px white
+   solid;
   background: white;
 }
 .Pmask2{
   height: 200px;
   width: 50px;
-  border-right: 7px #000 solid;
+  border-right: 7px white
+   solid;
   background: white;
   position: relative;
   top: -114px;
@@ -1342,13 +1472,15 @@
   width: 100px;
   height: 100px;
   border-radius: 100%;
-  border: 10px #000 solid;
+  border: 10px white
+   solid;
   background: white;
 }
 .Pmask3{
   height: 200px;
   width: 50px;
-  border-right: 10px #000 solid;
+  border-right: 10px white
+   solid;
   background: white;
   position: relative;
   top: -120px;
@@ -1358,13 +1490,15 @@
   width: 100px;
   height: 100px;
   border-radius: 100%;
-  border: 12px #000 solid;
+  border: 12px white
+   solid;
   background: white;
 }
 .Pmask4{
   height: 200px;
   width: 50px;
-  border-right: 12px #000 solid;
+  border-right: 12px white
+   solid;
   background: white;
   position: relative;
   top: -124px;
@@ -1375,7 +1509,8 @@
 .Jleg{
   height: 150px;
   width: 5px;
-  background: #000;
+  background: white
+  ;
   position: relative;
   left: 195px;
 }
@@ -1384,7 +1519,8 @@
   height: 100px;
   width: 100px;
   background: white;
-  border: 5px #000 solid;
+  border: 5px white
+   solid;
   border-radius: 100%;
   position: relative;
   left: 90px;
@@ -1403,7 +1539,8 @@
 .Jleg2{
   height: 150px;
   width: 7px;
-  background: #000;
+  background: white
+  ;
   position: relative;
   left: 193px;
 }
@@ -1412,7 +1549,8 @@
   height: 100px;
   width: 100px;
   background: white;
-  border: 7px #000 solid;
+  border: 7px white
+   solid;
   border-radius: 100%;
   position: relative;
   left: 86px;
@@ -1431,7 +1569,8 @@
 .Jleg3{
   height: 150px;
   width: 10px;
-  background: #000;
+  background: white
+  ;
   position: relative;
   left: 190px;
 }
@@ -1440,7 +1579,8 @@
   height: 100px;
   width: 100px;
   background: white;
-  border: 10px #000 solid;
+  border: 10px white
+   solid;
   border-radius: 100%;
   position: relative;
   left: 80px;
@@ -1459,29 +1599,31 @@
 .Jleg4{
   height: 150px;
   width: 12px;
-  background: #000;
-  position: relative;
-  left: 188px;
+  background: white;
+  position: absolute;
+  left: 100px;
+  top: 0;
+  margin-top: 10px;
 }
 
 .Jcircle4{
   height: 100px;
   width: 100px;
-  background: white;
-  border: 12px #000 solid;
+  background: #040A23;
+  border: 12px white solid;
   border-radius: 100%;
-  position: relative;
-  left: 76px;
-  bottom: 75px;
+  position: absolute;
+  left: 15px;
+  top: 90px;
 }
 
 .Jmask4{
   height: 80px;
-  width: 113px;
-  background: white;
-  position: relative;
-  bottom: 210px;
-  left: 75px;
+  width: 100px;
+  background: #040A23;
+  position: absolute;
+  top: 50px; 
+  left: 0px;
 }
 
 /*THIS IS THE LETTER U*/
@@ -1490,51 +1632,60 @@
   width: 196px;
   height: 196px;
   border-radius: 100%;
-  border: #000 solid;
+  border: white
+   solid;
   background: white;
 }
 
 .Umask{
   width: 196px;
   height: 100px;
-  border-left: #000 solid;
-  border-right: #000 solid;
+  border-left: white solid;
+  border-right: white solid;
   position: relative;
   bottom: 205px;
   background: white;
 }
 
 .Ucircle2{
-  width: 190px;
-  height: 190px;
+  width: 150px;
+  height: 150px;
   border-radius: 100%;
-  border: 7px #000 solid;
-  background: white;
+  border: 7px white solid;
+  background: #FBEA8A;
+  position: relative;
+  top: 10px;
+  right: 420px;
+  margin-top: 100px;
+
 }
 
 .Umask2{
-  width: 190px;
-  height: 100px;
-  border-left: 7px #000 solid;
-  border-right: 7px #000 solid;
+  width: 150px;
+  height: 80px;
+  border-left: 7px white solid;
+  border-right: 7px white solid;
   position: relative;
-  bottom: 205px;
-  background: white;
+  bottom: 150px;
+  right: 420px;
+  background: #FBEA8A;
+
 }
 
 .Ucircle3{
   width: 185px;
   height: 185px;
   border-radius: 100%;
-  border: 10px #000 solid;
+  border: 10px white
+   solid;
   background: white;
 }
 
 .Umask3{
   width: 185px;
   height: 100px;
-  border-left: 10px #000 solid;
-  border-right: 10px #000 solid;
+  border-left: 10px white solid;
+  border-right: 10px white solid;
   position: relative;
   bottom: 205px;
   background: white;
@@ -1544,18 +1695,22 @@
   width: 180px;
   height: 180px;
   border-radius: 100%;
-  border: 12px #000 solid;
-  background: white;
+  border: 12px white solid;
+  background: #040A23;
+  position: absolute;
+  top: 195px;
+  margin: 5px;
 }
 
 .Umask4{
   width: 180px;
-  height: 100px;
-  border-left: 12px #000 solid;
-  border-right: 12px #000 solid;
-  position: relative;
-  bottom: 205px;
-  background: white;
+  height: 90px;
+  border-left: 12px white solid;
+  border-right: 12px white solid;
+  position: absolute;
+  top: 195px;
+  margin: 5px;
+  background: #040A23;
 }
 
 /*THIS IS THE LETTER V*/
@@ -1564,7 +1719,8 @@
   width: 5px;
   height: 215px;
   transform: rotate(-27deg);
-  background: #000;
+  background: white
+  ;
   position: relative;
   left: 50px;
   bottom: 5px;
@@ -1574,7 +1730,8 @@
   width: 5px;
   height: 215px;
   transform: rotate(27deg);
-  background: #000;
+  background: white
+  ;
   position: relative;
   left: 150px;
   bottom: 220px;
@@ -1584,7 +1741,8 @@
   width: 7px;
   height: 215px;
   transform: rotate(-27deg);
-  background: #000;
+  background: white
+  ;
   position: relative;
   left: 50px;
   bottom: 5px;
@@ -1594,7 +1752,8 @@
   width: 7px;
   height: 215px;
   transform: rotate(27deg);
-  background: #000;
+  background: white
+  ;
   position: relative;
   left: 150px;
   bottom: 220px;
@@ -1604,7 +1763,8 @@
   width: 10px;
   height: 215px;
   transform: rotate(-27deg);
-  background: #000;
+  background: white
+  ;
   position: relative;
   left: 50px;
   bottom: 5px;
@@ -1614,7 +1774,8 @@
   width: 10px;
   height: 215px;
   transform: rotate(27deg);
-  background: #000;
+  background: white
+  ;
   position: relative;
   left: 150px;
   bottom: 220px;
@@ -1624,7 +1785,8 @@
   width: 12px;
   height: 215px;
   transform: rotate(-27deg);
-  background: #000;
+  background: white
+  ;
   position: relative;
   left: 50px;
   bottom: 5px;
@@ -1634,7 +1796,8 @@
   width: 12px;
   height: 215px;
   transform: rotate(27deg);
-  background: #000;
+  background: white
+  ;
   position: relative;
   left: 150px;
   bottom: 220px;
@@ -1646,7 +1809,8 @@
   width: 5px;
   height: 215px;
   transform: rotate(-27deg);
-  background: #000;
+  background: white
+  ;
   position: relative;
   left: 50px;
   bottom: 5px;
@@ -1656,7 +1820,8 @@
   width: 5px;
   height: 215px;
   transform: rotate(27deg);
-  background: #000;
+  background: white
+  ;
   position: relative;
   left: 150px;
   bottom: 220px;
@@ -1666,7 +1831,8 @@
   width: 5px;
   height: 215px;
   transform: rotate(-27deg);
-  background: #000;
+  background: white
+  ;
   position: relative;
   left: 245px;
   bottom: 435px;
@@ -1676,7 +1842,8 @@
   width: 5px;
   height: 215px;
   transform: rotate(27deg);
-  background: #000;
+  background: white
+  ;
   position: relative;
   left: 340px;
   bottom:650px;
@@ -1687,7 +1854,8 @@
   width: 7px;
   height: 215px;
   transform: rotate(-27deg);
-  background: #000;
+  background: white
+  ;
   position: relative;
   left: 50px;
   bottom: 5px;
@@ -1697,7 +1865,8 @@
   width: 7px;
   height: 215px;
   transform: rotate(27deg);
-  background: #000;
+  background: white
+  ;
   position: relative;
   left: 150px;
   bottom: 220px;
@@ -1707,7 +1876,8 @@
   width: 7px;
   height: 215px;
   transform: rotate(-27deg);
-  background: #000;
+  background: white
+  ;
   position: relative;
   left: 245px;
   bottom: 435px;
@@ -1717,7 +1887,8 @@
   width: 7px;
   height: 215px;
   transform: rotate(27deg);
-  background: #000;
+  background: white
+  ;
   position: relative;
   left: 340px;
   bottom:650px;
@@ -1727,7 +1898,8 @@
   width: 10px;
   height: 215px;
   transform: rotate(-27deg);
-  background: #000;
+  background: white
+  ;
   position: relative;
   left: 50px;
   bottom: 5px;
@@ -1737,7 +1909,8 @@
   width: 10px;
   height: 215px;
   transform: rotate(27deg);
-  background: #000;
+  background: white
+  ;
   position: relative;
   left: 150px;
   bottom: 220px;
@@ -1747,7 +1920,8 @@
   width: 10px;
   height: 215px;
   transform: rotate(-27deg);
-  background: #000;
+  background: white
+  ;
   position: relative;
   left: 245px;
   bottom: 435px;
@@ -1757,7 +1931,8 @@
   width: 10px;
   height: 215px;
   transform: rotate(27deg);
-  background: #000;
+  background: white
+  ;
   position: relative;
   left: 340px;
   bottom:650px;
@@ -1767,7 +1942,8 @@
   width: 12px;
   height: 215px;
   transform: rotate(-27deg);
-  background: #000;
+  background: white
+  ;
   position: relative;
   left: 50px;
   bottom: 5px;
@@ -1777,7 +1953,8 @@
   width: 12px;
   height: 215px;
   transform: rotate(27deg);
-  background: #000;
+  background: white
+  ;
   position: relative;
   left: 150px;
   bottom: 220px;
@@ -1787,7 +1964,8 @@
   width: 12px;
   height: 215px;
   transform: rotate(-27deg);
-  background: #000;
+  background: white
+  ;
   position: relative;
   left: 245px;
   bottom: 435px;
@@ -1797,7 +1975,8 @@
   width: 12px;
   height: 215px;
   transform: rotate(27deg);
-  background: #000;
+  background: white
+  ;
   position: relative;
   left: 337px;
   bottom:650px;
@@ -1809,7 +1988,8 @@
   width: 5px;
   height: 220px;
   transform: rotate(27deg);
-  background: #000;
+  background: white
+  ;
   position: relative;
   left: 100px;
   top: -11px;
@@ -1819,68 +1999,817 @@
   width: 5px;
   height: 220px;
   transform: rotate(-27deg);
-  background: #000;
+  background: white
+  ;
   position: relative;
   left: 100px;
   top: -230px;
 }
 
+.Xleft2{
+  width: 7px;
+  height: 220px;
+  transform: rotate(27deg);
+  background: white
+  ;
+  position: relative;
+  left: 100px;
+  top: -11px;
+}
+
+.Xright2{
+  width: 7px;
+  height: 220px;
+  transform: rotate(-27deg);
+  background: white
+  ;
+  position: relative;
+  left: 100px;
+  top: -230px;
+}
+
+.Xleft3{
+  width: 10px;
+  height: 220px;
+  transform: rotate(27deg);
+  background: white
+  ;
+  position: relative;
+  left: 100px;
+  top: -11px;
+}
+
+.Xright3{
+  width: 10px;
+  height: 220px;
+  transform: rotate(-27deg);
+  background: white
+  ;
+  position: relative;
+  left: 100px;
+  top: -230px;
+}
+
+.Xleft4{
+  width: 12px;
+  height: 220px;
+  transform: rotate(27deg);
+  background: white
+  ;
+  position: relative;
+  left: 100px;
+  top: -11px;
+}
+
+.Xright4{
+  width: 12px;
+  height: 220px;
+  transform: rotate(-27deg);
+  background: white
+  ;
+  position: relative;
+  left: 100px;
+  top: -230px;
+}
+
+/*THIS IS THE LETTER K*/
+
+.Kleg{
+  height: 200px;
+  width: 5px;
+  background: white
+  ;
+}
+
+.Ktop{
+  height: 150px;
+  width: 5px;
+  background: white
+  ;
+  transform: rotate(45deg);
+  position: relative;
+  top: -220px;
+  left: 52px;
+}
+
+.Kbottom{
+  height: 140px;
+  width: 5px;
+  background: white
+  ;
+  transform: rotate(-45deg);
+  position: relative;
+  top:  -268px;
+  left: 52px;
+}
 
 
+.Kleg2{
+  height: 200px;
+  width: 7px;
+  background: white
+  ;
+}
+
+.Ktop2{
+  height: 150px;
+  width: 7px;
+  background: white
+  ;
+  transform: rotate(45deg);
+  position: relative;
+  top: -220px;
+  left: 52px;
+}
+
+.Kbottom2{
+  height: 140px;
+  width: 7px;
+  background: white
+  ;
+  transform: rotate(-45deg);
+  position: relative;
+  top:  -268px;
+  left: 52px;
+}
+
+.Kleg3{
+  height: 200px;
+  width: 10px;
+  background: white
+  ;
+}
+
+.Ktop3{
+  height: 150px;
+  width: 10px;
+  background: white
+  ;
+  transform: rotate(45deg);
+  position: relative;
+  top: -220px;
+  left: 52px;
+}
+
+.Kbottom3{
+  height: 140px;
+  width: 10px;
+  background: white;
+  transform: rotate(-45deg);
+  position: relative;
+  top:  -268px;
+  left: 52px;
+}
+
+.Kleg4{
+  height: 200px;
+  width: 12px;
+  background: white;
+  position: absolute;
+  top: 200px;
+  left: 1030px;
+}
+
+.Ktop4{
+  height: 150px;
+  width: 12px;
+  background: white;
+  transform: rotate(45deg);
+  position: relative;
+  top: -40px;
+  left: 1085px;
+}
+
+.Kbottom4{
+  height: 140px;
+  width: 12px;
+  background: white;
+  transform: rotate(-45deg);
+  position: relative;
+  top:  -90px;
+  left: 1080px;
+}
+
+/*THIS IS THE LETTER Y*/
+
+.Yleg{
+  height: 220px;
+  width: 5px;
+  background: white
+  ;
+  transform: rotate(30deg);
+  position: absolute;
+  left: 100px;
+  top: -10px;
+}
+
+.Ytop{
+  height: 105px;
+  width: 5px;
+  background: white
+  ;
+  transform: rotate(-30deg);
+  position: absolute;
+  left: 76px;
+}
+
+.Yleg2{
+  height: 220px;
+  width: 7px;
+  background: white
+  ;
+  transform: rotate(30deg);
+  position: absolute;
+  left: 100px;
+  top: -10px;
+}
+
+.Ytop2{
+  height: 105px;
+  width: 7px;
+  background: white
+  ;
+  transform: rotate(-30deg);
+  position: absolute;
+  left: 76px;
+}
+
+.Yleg3{
+  height: 220px;
+  width: 10px;
+  background: white
+  ;
+  transform: rotate(30deg);
+  position: absolute;
+  left: 100px;
+  top: -10px;
+}
+
+.Ytop3{
+  height: 105px;
+  width: 10px;
+  background: white
+  ;
+  transform: rotate(-30deg);
+  position: absolute;
+  left: 76px;
+}
+
+.Yleg4{
+  height: 220px;
+  width: 12px;
+  background: white
+  ;
+  transform: rotate(30deg);
+  position: absolute;
+  left: 100px;
+  top: -10px;
+}
+
+.Ytop4{
+  height: 105px;
+  width: 12px;
+  background: white
+  ;
+  transform: rotate(-30deg);
+  position: absolute;
+  left: 76px;
+}
+
+/*THIS IS THE LETTER M*/
+
+.Mleg1{
+  width: 3px;
+  height: 199px;
+  background: white;
+  position: absolute;
+  top: 1px;
+  left: -30px;
+}
+
+.Mleft{
+  width: 3px;
+  height: 145px;
+  background: white;
+  transform: rotate(-45deg);
+  position: absolute;
+  top: -20px;
+  left: 20px;
+}
+
+.Mright{
+  width: 3px;
+  height: 145px;
+  background: white;
+  transform: rotate(45deg);
+  position: absolute;
+  top: -20px;
+  left: 120px;
+}
+
+.Mleg2{
+  width: 3px;
+  height: 199px;
+  background: white;
+  position: absolute;
+  left: 170px;
+  top: 1px;
+}
+
+.Mleg12{
+  width: 7px;
+  height: 150px;
+  background: white;
+  position: relative;
+  right: 150px;
+  margin-top: 100px;
+}
+
+.Mleft2{
+  width: 7px;
+  height: 100px;
+  background: white;
+  transform: rotate(-45deg);
+  position: absolute;
+  top: 85px;
+  right: 310px;
+}
+
+.Mright2{
+  width: 7px;
+  height: 95px;
+  background: white;
+  transform: rotate(45deg);
+  position: absolute;
+  top: 90px;
+  right: 245px;
+}
+
+.Mleg22{
+  width: 7px;
+  height: 150px;
+  background: white;
+  position: absolute;
+  right: 210px;
+  top: 100px;
+}
+
+.Mleg13{
+  width: 10px;
+  height: 200px;
+  background: white
+  ;
+}
+
+.Mleft3{
+  width: 10px;
+  height: 150px;
+  background: white
+  ;
+  transform: rotate(-45deg);
+  position: absolute;
+  top: -25px;
+  left: 50px;
+}
+
+.Mright3{
+  width: 10px;
+  height: 145px;
+  background: white
+  ;
+  transform: rotate(45deg);
+  position: absolute;
+  top: -23px;
+  left: 150px;
+}
+
+.Mleg23{
+  width: 10px;
+  height: 200px;
+  background: white
+  ;
+  position: absolute;
+  left: 200px;
+  top: 0px;
+}
+
+.Mleg14{
+  width: 12px;
+  height: 200px;
+  background: white
+  ;
+}
+
+.Mleft4{
+  width: 12px;
+  height: 150px;
+  background: white
+  ;
+  transform: rotate(-45deg);
+  position: absolute;
+  top: -25px;
+  left: 50px;
+}
+
+.Mright4{
+  width: 12px;
+  height: 145px;
+  background: white
+  ;
+  transform: rotate(45deg);
+  position: absolute;
+  top: -20px;
+  left: 147px;
+}
+
+.Mleg24{
+  width: 12px;
+  height: 200px;
+  background: white
+  ;
+  position: absolute;
+  left: 195px;
+  top: 0px;
+}
+
+/*THIS IS THE LETTER N*/
+
+.n2{
+  position: absolute;
+  bottom: 220px;
+  right: 100px;
+}
+
+.Nleft{
+  height: 200px;
+  width: 3px;
+  background: white;
+  z-index: 5;
+  position: relative;
+  right: 100px;
+}
+
+.Nmid{
+  height: 255px;
+  width: 3px;
+  background: white;
+  transform: rotate(-35deg);
+  position: absolute;
+  top: -30px;
+  right: 225px;
+}
+
+.Nright{
+  height: 200px;
+  width: 3px;
+  background: white;
+  position: absolute;
+  right: 150px;
+  top: 0px;
+}
+
+.Nleft2{
+  height: 150px;
+  width: 7px;
+  background: white;
+  position: relative;
+  right: 470px;
+  margin-top: 100px;
+}
+
+.Nmid2{
+  height: 175px;
+  width: 7px;
+  background: white;
+  transform: rotate(-35deg);
+  position: absolute;
+  bottom: -60px;
+  right: 610px;
+
+}
+
+.Nright2{
+  height: 150px;
+  width: 7px;
+  background: white;
+  position: absolute;
+  right: 560px;
+  bottom: -45px;
+
+}
+
+.Nleft3{
+  height: 200px;
+  width: 10px;
+  background: white
+  ;
+}
+
+.Nmid3{
+  height: 275px;
+  width: 10px;
+  background: white;
+  transform: rotate(-45deg);
+  position: absolute;
+  top: -39px;
+  left: 97px;
+}
+
+.Nright3{
+  height: 200px;
+  width: 10px;
+  background: white;
+  position: absolute;
+  left: 195px;
+  top: 0px;
+}
+
+.Nleft4{
+  height: 200px;
+  width: 12px;
+  background: white;
+  position: absolute;
+  right: 300px;
+}
+
+.Nmid4{
+  height: 230px;
+  width: 12px;
+  background: white;
+  transform: rotate(-35deg);
+  position: absolute;
+  top: -19px;
+  left: -50px;
+}
+
+.Nright4{
+  height: 200px;
+  width: 12px;
+  background: white;
+  position: absolute;
+  left: 15px;
+  top: 0px;
+}
 
 
+/*THIS IS THE LETTER Z*/
 
+.Ztop{
+  width: 200px;
+  height: 5px;
+  background: white
+  ;
+}
 
+.Zmid{
+  width: 5px;
+  height: 280px;
+  background: white
+  ;
+  transform: rotate(45deg);
+  position: absolute;
+  left: 100px;
+  top: -40px;
+}
 
+.Zbottom{
+  width: 200px;
+  height: 5px;
+  background: white
+  ;
+  position: absolute;
+  top: 195px;
+}
 
+.Ztop2{
+  width: 200px;
+  height: 7px;
+  background: white
+  ;
+}
 
+.Zmid2{
+  width: 7px;
+  height: 280px;
+  background: white
+  ;
+  transform: rotate(45deg);
+  position: absolute;
+  left: 100px;
+  top: -40px;
+}
 
+.Zbottom2{
+  width: 200px;
+  height: 7px;
+  background: white;
+  position: absolute;
+  top: 195px;
+}
 
+.Ztop3{
+  width: 200px;
+  height: 10px;
+  background: white;
+}
 
+.Zmid3{
+  width: 10px;
+  height: 280px;
+  background: white;
+  transform: rotate(45deg);
+  position: absolute;
+  left: 100px;
+  top: -40px;
+}
 
+.Zbottom3{
+  width: 200px;
+  height: 10px;
+  background: white;
+  position: absolute;
+  top: 195px;
+}
 
+.Ztop4{
+  width: 150px;
+  height: 12px;
+  background: white;
+  position: absolute;
+  right: 225px;
+}
 
+.Zmid4{
+  width: 12px;
+  height: 245px;
+  background: white;
+  transform: rotate(35deg);
+  position: absolute;
+  right: 295px;
+  top: -15px;
+}
 
+.Zbottom4{
+  width: 150px;
+  height: 12px;
+  background: white;
+  position: absolute;
+  top: 195px;
+  right: 225px;
+}
 
+/*THIS IS THE LETTER S*/
 
+.Stop{
+  width: 97px;
+  height: 97px;
+  border: 3px white solid;
+  border-radius: 100%;
+  background: #A1D3F8;
+}
 
+.Sbottom{
+  width: 97px;
+  height: 97px;
+  border: 3px white solid;
+  border-radius: 100%;
+  background: #A1D3F8;
+  position: absolute;
+  bottom: 11px;
+}
 
+.Smasktop{
+  width: 60px;
+  height:60px;
+  background: #A1D3F8;
+  position: absolute;
+  left: 61px;
+  bottom: 106px;
+}
 
+.Smaskbottom{
+  width: 60px;
+  height:60px;
+  background: #A1D3F8;
+  position: absolute;
+  left: -11px;
+  bottom: 45px;
+}
 
+.Stop2{
+  width: 75px;
+  height: 75px;
+  border: 7px white solid;
+  border-radius: 100%;
+  background: #FBEA8A;
+  margin-top: 100px;
+}
 
+.Sbottom2{
+  width: 75px;
+  height: 75px;
+  border: 7px white solid;
+  border-radius: 100%;
+  background: #FBEA8A;
 
+}
 
+.Smasktop2{
+  width: 50px;
+  height:30px;
+  background: #FBEA8A;
+  position: absolute;
+  left: 45px;
+  bottom: 33px;
 
+}
 
+.Smaskbottom2{
+  width: 50px;
+  height:30px;
+  background: #FBEA8A;
+  position: absolute;
+  left: -10px;
+  bottom: -11px;
+}
 
+.Stop3{
+  width: 85px;
+  height: 85px;
+  border: 10px white
+   solid;
+  border-radius: 100%;
+  background: white;
+}
 
+.Sbottom3{
+  width: 85px;
+  height: 85px;
+  border: 10px white
+   solid;
+  border-radius: 100%;
+  background: white;
+  position: absolute;
+  bottom: 1px;
+}
 
+.Smasktop3{
+  width: 60px;
+  height:60px;
+  background: white;
+  position: absolute;
+  left: 65px;
+  bottom: 105px;
+}
 
+.Smaskbottom3{
+  width: 60px;
+  height:60px;
+  background: white;
+  position: absolute;
+  left: 0px;
+  bottom: 35px;
+}
 
+.Stop4{
+  width: 115px;
+  height: 115px;
+  border: 12px white solid;
+  border-radius: 100%;
+  background: #040A23;
+  margin: -10px;
+  position: relative;
+  right: 30px;
+}
 
+.Sbottom4{
+  width: 115px;
+  height: 115px;
+  border: 12px white solid;
+  border-radius: 100%;
+  background: #040A23;
+  position: absolute;
+  right: 125px;
 
+}
 
+.Smasktop4{
+  width: 60px;
+  height:60px;
+  background: #040A23;
+  position: absolute;
+  left: 20px;
+  bottom: 108px;
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.Smaskbottom4{
+  width: 60px;
+  height:60px;
+  background: #040A23;
+  position: absolute;
+  left: -40px;
+  bottom: 33px;
+}
 
 
 

@@ -1,0 +1,140 @@
+*{
+	box-sizing: border-box;
+}
+
+html,body, .background{ height: 100%; }
+
+body{
+	margin: 0;
+	padding: 0;
+}
+
+.background{
+	width: 100%;
+	height: 100%;
+	margin: 0;
+	padding: 0;
+	z-index: 1;
+}
+
+.blue{
+	background: #A1D3F8;
+	cursor: url(assets/img/crusor1.png), auto;
+}
+
+.gradient1{
+	background: -webkit-linear-gradient( #A1D3F8, #FBEA8A);
+}
+
+.yellow{
+	background: #FBEA8A;
+	cursor: url(assets/img/cursor2.png), auto;
+}
+
+.gradient2{
+	background: -webkit-linear-gradient( #FBEA8A, #F37000);	
+}
+
+.orange{
+	background: #F37000;
+	cursor: url(assets/img/crusor1.png), auto;
+}
+
+.gradient3{
+		background: -webkit-linear-gradient( #F37000, #040A23);	
+}
+
+.dark{
+	background: #040A23;
+	cursor: url(assets/img/cursor3.png), auto;
+}
+
+.phrase{
+	width: 90%;
+	/*background: red;*/
+	margin: 0 auto;
+	z-index: 5;
+	display: block;
+	position: fixed;
+	text-align: center;
+	top:50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	opacity: 0;
+}
+
+.space{ 
+	width: 50px;
+	height: 150px;
+	display: inline-block;
+	margin: 0;
+	padding: 0;
+ }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
