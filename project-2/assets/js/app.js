@@ -11,11 +11,19 @@ $(window).scroll(function() {
  var percentScrolled3 = ($(window).scrollTop()-($(window).height()*3))/$(window).height();
  var percentScrolled4 = ($(window).scrollTop()-($(window).height()*4))/$(window).height();
 	$(".morning").css("opacity",percentScrolled)
+	$(".arrow").css("opacity",percentScrolled)
 	$(".mid-day").css("opacity",percentScrolled2)
 	$(".mid-noon").css("opacity",percentScrolled3)
 	$(".night").css("opacity",percentScrolled4)
 
 	scroll_position = $(window).scrollTop();
+
+
+if(percentScrolled <= 0) {
+	$(".arrow").show()
+} else{
+	$(".arrow").hide()
+}
 
 if(percentScrolled2 > 0) {
 	$(".morning").hide()
@@ -41,3 +49,32 @@ if(percentScrolled4 > 0) {
 		console.log('it is afternoon');
 	}
 });
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

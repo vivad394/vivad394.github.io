@@ -71,6 +71,14 @@ body{
 	padding: 0;
  }
 
+.arrow{
+	width: 100px;
+	height: 100px;
+	background: url(assets/img/arrow.png) no-repeat center;
+	position: fixed;
+	right: 0;
+	margin: 20px;
+}
 
 
 
