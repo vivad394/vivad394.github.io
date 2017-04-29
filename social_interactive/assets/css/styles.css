@@ -1,0 +1,127 @@
+*{
+	box-sizing: border-box;
+}
+
+html,body { height: 100%; }
+
+body{
+	padding: 0;
+	margin: 0;
+}
+
+.homepage {
+	width: 100%;
+	height: 150%;
+	background: url(../img/homepage.jpg) no-repeat;
+	background-size: 100%;
+	z-index: 1;
+	padding: 0;
+	margin: 0;
+}
+
+.neighborhood{
+	width: 100px;
+	height: 120px;
+	background: #ff0000;
+	z-index: 5;
+	position: absolute;
+}
+
+.one{
+	left: 615px;
+	top: 145px;
+}
+
+.two{
+	left: 735px;
+	top: 145px;
+}
+
+.three{
+	left: 855px;
+	top: 145px;
+}
+
+.four{
+	left: 975px;
+	top: 145px;
+}
+
+.five{
+	left: 1095px;
+	top: 145px;
+}
+
+.six{
+	left: 1215px;
+	top: 145px;	
+}
+
+.seven{
+	left: 615px;
+	top: 275px;
+}
+
+.eight{
+	left: 735px;
+	top: 275px;
+}
+
+.nine{
+	left: 855px;
+	top: 275px;
+}
+
+.ten{
+	left: 975px;
+	top: 275px;
+}
+
+.eleven{
+	left: 1095px;
+	top: 275px;
+}
+
+.twelve{
+	left: 1215px;
+	top: 275px;
+}
+
+.thirteen{
+	left: 615px;
+	top: 410px;
+}
+
+.fourteen{
+	left: 735px;
+	top: 410px;
+}
+
+.fifteen{
+	left: 855px;
+	top: 410px;
+}
+
+.sixteen{
+	left: 975px;
+	top: 410px;
+}
+
+.seventeen{
+	left: 1095px;
+	top: 410px;
+}
+
+.eighteen{
+	left: 1215px;
+	top: 410px;
+}
+
+
+
+
+
+
+
+
+
