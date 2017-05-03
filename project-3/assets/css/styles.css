@@ -1,8 +1,6 @@
-*{
-	box-sizing: border-box;
-}
+*{box-sizing: border-box;}
 
-html,body, .background{ height: 100%; }
+html,body, .background{height: 100%; }
 
 body{
 	padding: 0;
@@ -16,19 +14,61 @@ body{
 	margin: 0;
 }
 
-.text{
+.pick{
 	padding: 0;
 	margin: 0 auto;
 	position: absolute;	
-	top: 50%;
+	top: 25%;
 	left: 50%;
 	transform: translate(-50%,-50%);
 	color: white;
-	z-index: 5;
-	font-size: 12px;
+	z-index: 8;
+	font-size: 48px;
 	font-family: Courier;
 	text-align: justify;
 	line-height: 14px;
+	display: none;
+}
+
+.choices{
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	position: fixed;
+	width: 80%;
+	height: 33%;
+	z-index: 7;
+	cursor: pointer;
+	display: none;
+}
+
+.choice{
+	border: #fff solid 4px;
+	width: 24.7%;
+	height: 100%;
+	display: inline-block;
+	padding: 0;
+	margin: 0;
+}
+
+.one{
+	background: url(../img/choice1.png) no-repeat center;
+	background-size: 75%;
+}
+
+.two{
+	background: url(../img/choice2.png) no-repeat center;
+	background-size: 65%;
+}
+
+.three{
+	background: url(../img/choice3.png) no-repeat center;
+	background-size: 58%;	
+}
+
+.four{
+	background: url(../img/choice4.png) no-repeat center;
+	background-size: 70%;
 }
 
 .line{
@@ -40,3 +80,67 @@ body{
 	position: fixed;
 	opacity: 50%;
 }
+
+.heading{
+	padding: 0;
+	margin: 0 auto;
+	position: absolute;	
+	top: 25%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	color: white;
+	z-index: 8;
+	font-size: 48px;
+	font-family: Courier;
+	text-align: center;
+	line-height: 48px;
+}
+
+.text{
+	padding: 0;
+	margin: 0 auto;
+	position: absolute;	
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	color: white;
+	z-index: 8;
+	font-size: 24px;
+	font-family: Courier;
+	text-align: justify;
+	line-height: 24px;
+}
+
+.back{
+	padding: 0;
+	margin: 0 auto;
+	position: absolute;	
+	top: 80%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	color: white;
+	z-index: 8;
+	font-size: 12px;
+	font-family: Courier;
+	text-align: justify;
+	line-height: 14px;
+	cursor: pointer;
+}
+
+a:link{
+	color: #fff;
+	text-decoration: none;
+}
+
+.arrived{display: none;}
+
+.deported{display: none;}
+
+.crossed{display: none;}
+
+.caught{display: none;}
+
+.swimming{display: none;}
+
+.stopped{display: none;}
+
