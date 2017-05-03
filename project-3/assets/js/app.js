@@ -51,11 +51,27 @@ $(".three").click(function() {
 	$(".choices").hide();
 });
 
+$(".four").click(function() {
+	var diceRoll = Math.floor(Math.random()*5);
+	if (diceRoll < 1) {
+		console.log("you made it");
+		$(".pick").hide();
+		$(".flying").show();
+		$(".line").hide();
+	} else {
+		console.log("try again...");
+		$(".pick").hide();
+		$(".staying").show();	
+	}
+	$(".choices").hide();
+});
+
 $(".back").click(function() {
 	$(".choices").show();
 	$(".pick").show();
 	$(".deported").hide();	
 	$(".caught").hide();
 	$(".stopped").hide();
+	$(".staying").hide();
 
 })
