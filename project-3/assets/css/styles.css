@@ -9,9 +9,42 @@ body{
 
 .background{
 	background: #0000ff;
+	z-index: -1;
+	padding: 0;
+	margin: 0;
+	position: fixed;
+	top:0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+}
+
+.background-black{
+	background-color: black;
+	z-index: -1;
+	padding: 0;
+	margin: 0;
+	display: none;
+	position: fixed;
+	top:0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+}
+
+.background-jobs{
+	width: 100%;
+	height: 100%;
+	background: #0F0;
 	z-index: 1;
 	padding: 0;
 	margin: 0;
+	position: fixed;
+	display: none;
+	top:0;
+	left: 0;
+	bottom: 0;
+	right: 0;
 }
 
 .pick{
@@ -25,9 +58,24 @@ body{
 	z-index: 8;
 	font-size: 48px;
 	font-family: Courier;
-	text-align: justify;
+	text-align: center;
 	line-height: 14px;
 	display: none;
+}
+
+.pick-jobs{
+	padding: 0;
+	margin: 0 auto;
+	position: absolute;	
+	top: 25%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	color: #000;
+	z-index: 8;
+	font-size: 48px;
+	font-family: Courier;
+	text-align: center;
+	line-height: 14px;
 }
 
 .choices{
@@ -76,9 +124,9 @@ body{
 	height: 100%;
 	background: url(../img/line.png) no-repeat center;
 	background-size: 100%;
-	z-index: 2;
+	z-index: 3;
 	position: fixed;
-	opacity: 50%;
+	opacity: .5;
 }
 
 .heading{
@@ -107,7 +155,7 @@ body{
 	z-index: 8;
 	font-size: 24px;
 	font-family: Courier;
-	text-align: justify;
+	text-align: center;
 	line-height: 24px;
 }
 
@@ -122,14 +170,120 @@ body{
 	z-index: 8;
 	font-size: 12px;
 	font-family: Courier;
-	text-align: justify;
+	text-align: center;
 	line-height: 14px;
 	cursor: pointer;
 }
 
+
+.heading2{
+	padding: 0;
+	margin: 0 auto;
+	position: absolute;	
+	top: 25%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	color: #000;
+	z-index: 8;
+	font-size: 48px;
+	font-family: Courier;
+	text-align: center;
+	line-height: 48px;
+}
+
+.text2{
+	padding: 0;
+	margin: 0 auto;
+	position: absolute;	
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	color: #000;
+	z-index: 8;
+	font-size: 24px;
+	font-family: Courier;
+	text-align: center;
+	line-height: 24px;
+}
+
+.back2{
+	padding: 0;
+	margin: 0 auto;
+	position: absolute;	
+	top: 80%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	color: #000;
+	z-index: 8;
+	font-size: 12px;
+	font-family: Courier;
+	text-align: center;
+	line-height: 14px;
+	cursor: pointer;
+}
+
+.jobs{
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	position: fixed;
+	width: 80%;
+	height: 33%;
+	z-index: 7;
+	cursor: pointer;
+}
+
+.job{
+	border: #000 solid 4px;
+	width: 24.7%;
+	height: 100%;
+	display: inline-block;
+	padding: 0;
+	margin: 0;
+}
+
+.traveling {
+	width: 100%;
+	height: 100%;
+	background: #0000ff;
+	z-index: 5000;
+	position: fixed;
+	top: 0;
+	left: 0;
+}
+
+.traveling.hide { display: none; }
+
 a:link{
 	color: #fff;
-	text-decoration: none;
+	text-decoration: underline;
+}
+
+a:visited{
+	color: #fff;
+	text-decoration: none;	
+}
+
+.red{
+	width: 15%;
+	height: 15%;
+	background: #F00;
+	border-radius: 17px;
+	z-index: 10;
+	position: fixed;
+	left: 50%;
+	bottom: 0;
+	transform: translate(-50%, -50%);
+	font-family: Courier;
+	text-align: center;
+	color: #F00;
+	line-height: 21px;
+	font-size: 20px;
+}
+
+.red:hover{
+	background: none;
+	border: 3px solid red;
 }
 
 .arrived{display: none;}
@@ -147,3 +301,25 @@ a:link{
 .flying{display: none;}
 
 .staying{display: none;}
+
+.accepted{display: none;}
+
+.rejected{display: none;}
+
+.cooking{display: none;}
+
+.waiting{display: none;}
+
+.limpiando{display: none;}
+
+.saliendo{display: none;}
+
+.constructing{display: none;}
+
+.not{display: none;}
+
+
+
+
+
+
