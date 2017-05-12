@@ -155,7 +155,7 @@ body{
 	z-index: 8;
 	font-size: 24px;
 	font-family: Courier;
-	text-align: center;
+	text-align: justify;
 	line-height: 24px;
 }
 
@@ -240,6 +240,26 @@ body{
 	display: inline-block;
 	padding: 0;
 	margin: 0;
+}
+
+.uno{
+	background: url(../img/job1.png) no-repeat center;
+	background-size: 70%;
+}
+
+.dos{
+	background: url(../img/job2.png) no-repeat center;
+	background-size: 80%;
+}
+
+.tres{
+	background: url(../img/job3.png) no-repeat center;
+	background-size: 50%;
+}
+
+.cuatro{
+	background: url(../img/job4.png) no-repeat center;
+	background-size: 80%;
 }
 
 .traveling {
